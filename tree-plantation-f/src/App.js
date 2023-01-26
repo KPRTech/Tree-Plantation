@@ -1,5 +1,5 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+
+import './images/App.css';
 
 function App() {
   return (
@@ -9,6 +9,8 @@ function App() {
         <Route path="/" />
       </Routes>
       </BrowserRouter>
+      
+      
     </div>
   );
 }
