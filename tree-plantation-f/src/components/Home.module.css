@@ -4,5 +4,13 @@
     background-repeat:no-repeat;
     background-position: center;
     padding-top:4rem;
-    min-height: 100vh;
+    min-height: 70vh;
+    border-width:10px; 
 };
+.button{
+background-color: white;
+color: black;
+padding-right: 0cm;
+
+
+}
