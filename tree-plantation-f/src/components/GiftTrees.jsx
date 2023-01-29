@@ -55,14 +55,14 @@ function GiftTrees(){
             
             <div className="lg:w-5/12 md:w-10/12 md:ml-3 lg:pl-10 md:pl-4 text-start">
                   
-                    <h3>GIFT TREES</h3>
-                    <p >ONE DOLLAR. ONE TREE.</p>
+                    <h3 className=" text-left text-3xl">GIFT TREES</h3>
+                    <p className="text-left text-sm italic mt-2">ONE DOLLAR. ONE TREE.</p>
                     <div className="border-b border-solid border-slate-300 my-2"></div>
                     <p>Gift a tree in someone's name as a heartfelt and everlasting way to show your appreciation. These trees will support
-                        <span>AFR100, the African Forest Landscape Initiative! </span>Choose an image below, write your message, choose a delivery date and gift a tree.
+                        <span className="font-bold"> AFR100, the African Forest Landscape Initiative! </span>Choose an image below, write your message, choose a delivery date and gift a tree.
                         <span><a href="#action">Learn more</a></span></p>
-                    <p>By gifting a tree, you will help to:</p>
-                    <ul>
+                    <p className="mt-2 mb-1">By gifting a tree, you will help to:</p>
+                    <ul className="mb-3">
                         <li className="before:content-[url(https://cdn.shopify.com/s/files/1/0326/7189/files/checkmark-icon.svg?v=1621535987)] before:mr-2 before:text-emerald-400 opacity-70">Provide jobs to minimize poverty in local communities</li>
                         <li className="before:content-[url(https://cdn.shopify.com/s/files/1/0326/7189/files/checkmark-icon.svg?v=1621535987)] before:mr-2 before:text-emerald-400 opacity-70">Improve climate change resilience & mitigation</li>
                         <li className="before:content-[url(https://cdn.shopify.com/s/files/1/0326/7189/files/checkmark-icon.svg?v=1621535987)] before:mr-2 before:text-emerald-400 opacity-70">Restore forest cover to improve food security</li>
@@ -91,17 +91,17 @@ function GiftTrees(){
 </svg></span> <span>GIFT TREES</span> </button>
                     </div>
                     <p className="py-8 border-b border-gray-300 text-sm text-center">Want to plant somewhere else?<span> <a href="#action" className="text-blue-400 hover:text-blue-500 decoration-solid underline-offset-1 underline">Click here</a></span> to see all our projects!</p>
-                    <ul className="flex justify-center mt-4">
-                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-10 h-10 border rounded-full text-sky-400 hover:text-white hover:bg-sky-400 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter inline" viewBox="0 0 16 16">
+                    <ul className="flex justify-center my-10">
+                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-12 h-12 border rounded-full text-sky-400 hover:text-white hover:bg-sky-400 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter inline" viewBox="0 0 16 16">
   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
 </svg> </a></li>
-                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-10 h-10 border rounded-full text-blue-900 hover:text-white hover:bg-blue-900 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook inline" viewBox="0 0 16 16">
+                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-12 h-12 border rounded-full text-blue-900 hover:text-white hover:bg-blue-900 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook inline" viewBox="0 0 16 16">
   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
 </svg></a></li>
-                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-10 h-10 border rounded-full text-red-700 hover:text-white hover:bg-red-700 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-pinterest inline" viewBox="0 0 16 16">
+                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-12 h-12 border rounded-full text-red-700 hover:text-white hover:bg-red-700 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-pinterest inline" viewBox="0 0 16 16">
   <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
 </svg> </a></li>
-                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-10 h-10 border rounded-full text-gray-400 hover:text-white hover:bg-gray-400 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope inline" viewBox="0 0 16 16">
+                        <li className="w-1/12 mr-2"><a href="#action" className="flex justify-center items-center w-12 h-12 border rounded-full text-gray-400 hover:text-white hover:bg-gray-400 transition-all duration-300	ease-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope inline" viewBox="0 0 16 16">
   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
 </svg> </a></li>
                         
@@ -110,10 +110,10 @@ function GiftTrees(){
             </div> 
          {/**Start Second Container */}
         <div className="my-10">
-            <div className="flex flex-col items-center">
-                <h1>GIVE THE GIFT OF TREES!</h1>
-                <p>Select an image below and send your card. Need help gifting? Click here for our guide!</p>
-                <p>A Tree Certificate will be sent to the recipient with the e-card.</p>
+            <div className="flex flex-col items-center mb-4">
+                <h1 className=" text-3xl font-semibold">GIVE THE GIFT OF TREES!</h1>
+                <p className=" text-base">Select an image below and send your card. Need help gifting? Click here for our guide!</p>
+                <p className="font-bold text-base">A Tree Certificate will be sent to the recipient with the e-card.</p>
             </div>
 
             <div className="flex lg:flex-row md:flex-col items-center">
