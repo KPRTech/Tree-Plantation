@@ -5,15 +5,15 @@ import cardData from './BlogsList';
 
 function CardList() {
   return (
-    <div className="flex flex-wrap -mx-2 mx-4 justify-center">
+    <div className="flex flex-wrap -mx-2 mx-4 justify-center xl:ml-8 xl:justify-center">
       {cardData.map((card, index) => (
-        <div className="w-1/1 px-2 px-2 my-4 md:w-1/2 lg:w-1/3 xl:w-1/3" key={index}>
+        <div className="w-1/1 px-2 px-2 my-4 md:w-1/3 lg:w-1/3 " key={index}>
           <div className="bg-white rounded-lg crd2">
-            <img src={card.image} alt={card.title} className="w-full " />
-            <h3 className="text-sm md:text-base font-medium my-2 text-start ">{card.title}</h3>
-            <div className="text-sm text-gray-600 text-start ">
-              <span className="mr-2 ">{card.author}</span>
-              <span>* {card.date}</span>
+            <img src={card.image} alt={card.title} className="w-full" />
+            <h3 className="text-sm md:text-base  my-2 text-start font-sans">{card.title}</h3>
+            <div className=" text-gray-600 text-start ">
+              <span className="mr-2 text-xs">{card.author}</span>
+              <span className='text-xs'>* {card.date}</span>
             </div>
           </div>
         </div>
@@ -21,6 +21,7 @@ function CardList() {
     </div>
   );
 }
+// md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3
 
 export default CardList;
 
