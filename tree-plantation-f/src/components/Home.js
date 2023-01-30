@@ -17,6 +17,7 @@ const Home = () => {
                     , fontSize: "25px"
                 }}>LEARN ABOUT THE  DIFFERENT
                     TYPES OF TREE SPECIES</p>
+                    <section>
                 <div style={{
                     textAlign: "center", borderSize: "border-box"
                 }}>
@@ -26,6 +27,7 @@ const Home = () => {
                     </button>
 
                 </div>
+                </section>
             </div>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-25 mx-auto">
@@ -354,7 +356,8 @@ const Home = () => {
 
                                 <div class="p-6">
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
-                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> It is the only juniper to occur south of the equator. </p>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> There are isolated American Elm trees that survived Dutch Elm Disease with trunks over 4.5 m in circumference!
+</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -369,7 +372,8 @@ const Home = () => {
 
                                 <div class="p-6">
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                                    <p class="leading-relaxed mb-3 text-center ">The specific name, "Occidentalis", means "west," the direction from Sweden where this tree was discovered.</p>
+                                    <p class="leading-relaxed mb-3 text-center ">Name "hornbeam" originates from old English words "horn", which was used to describe strong wood and "beam", that was used as a synonym for tree.
+</p>
                                     <div class="flex items-center flex-wrap">
 
 
@@ -383,7 +387,7 @@ const Home = () => {
                                 <div class="p-6">
 
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                                    <p class="leading-relaxed mb-3 text-center">Beechnut was used as food for the cattle. Many forest mammals and birds consume beechnuts as a regular part of their diet</p>
+                                    <p class="leading-relaxed mb-3 text-center">Some species of Larch can survive up to thousand years, most live around 250 years in the wild.</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -400,7 +404,7 @@ const Home = () => {
                                 <div class="p-6">
 
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                                    <p class=" leading-relaxed mb-3 text-center">Chestnuts can be consumed raw, baked, boiled or roasted. It also can be dried and milled into flour.
+                                    <p class=" leading-relaxed mb-3 text-center">American Mountain Ash Trees make their own food from sunlight, carbon dioxide, water, and nutrients from the soil.
                                     </p>
                                     <div class="flex items-center flex-wrap">
 
@@ -413,6 +417,192 @@ const Home = () => {
                 </div>
 
             </section>
+
+
+
+            <section id="a" class="text-gray-600 body-font">
+
+<div>
+    <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                <div class="p-6">
+                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
+                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> North Africa </p>
+                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                <div class="p-6">
+                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
+                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                    <div class="flex items-center flex-wrap">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                <div class="p-6">
+
+                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
+                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                <div class="p-6">
+
+                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
+                    <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                    <div class="flex items-center flex-wrap">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<section id="a" class="text-gray-600 body-font,text-align-center">
+             
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36 w-100 object-cover object-center   " src="/image/imageE.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">APPLE TREE</h1>
+                                    <p class="leading-relaxed mb-3 text-centers">There are over 7500 varieties of apples that can be found worldwide. They are part of human diet for thousands of years. This fruit is a symbol of temptation and immorality in Christianity.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageF.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">ASPEN TREE</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">A poplar tree that belongs to the willow family. here are six species of aspen that can be found in the temperate areas of the northern hemisphere. Aspen grows in sunny areas, on moist, well-drained so</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageG.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AVOCADO TREE</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The avocado tree needs a warm climate, little wind, and well aerated soil to thrive. The trees are partially self pollinating, but are more effectively grown through grafting or its fruit’s seed.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> The average apple tree produces 88 to 440 pounds of apples each year.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">The heat-resistant wood of aspen trees have application in the manufacture of interior parts of sauna and roofing.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">An avocado fruit is a type of berry.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+
+ <span style={{ fontSize: "60px" }}>B</span>
+ 
 
         </div>
 
