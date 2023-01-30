@@ -67,7 +67,7 @@ const Home = () => {
             </div>
             <section id="a" class="text-gray-600 body-font,text-align-center">
                 <span style={{ fontSize: "60px" }}>A</span>
-                <div class="container px-5 py-24 mx-auto">
+                <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -137,7 +137,7 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-                <div class="container px-5 py-24 mx-auto">
+                <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -210,7 +210,7 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-                <div class="container px-5 py-24 mx-auto">
+                <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -278,7 +278,7 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-                <div class="container px-5 py-24 mx-auto">
+                <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -347,7 +347,7 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-                <div class="container px-5 py-24 mx-auto">
+                <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
