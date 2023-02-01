@@ -7,27 +7,36 @@ const Home = () => {
             <div className={css.bg}>
 
                 <h1 style={{
-                    textAlign: "center", color: "gray"
-                    , fontSize: "60px"
+                    textAlign: "center", 
+                     fontSize: "60px" ,color: "#fff",
+                    fontFamily: "Raleway",
+                    fontWeight: "800",
+                    fontSize: "80px",
+                    marginBottom: "0",
+                    lineHeight: "1em",
+                    border:"0"
+                
                 }}>
                     TYPES OF TREE</h1>
 
                 <p style={{
-                    textAlign: "center", color: "gray"
-                    , fontSize: "25px"
+                    textAlign: "center",color: "#fff",
+                    fontSize: "25px",
+                    fontFamily: "Raleway",
+                    fontWeight: "50",
+                   
+                    marginBottom: "0",
+                    lineHeight: "1em",
                 }}>LEARN ABOUT THE  DIFFERENT
                     TYPES OF TREE SPECIES</p>
-                    <section>
-                <div style={{
-                    textAlign: "center", borderSize: "border-box"
-                }}>
-                    <button>
+                <div>
+                <button class="flex mx-auto bg-gray-100 
+     text-black   font-bold py-2 px-4 mt-6  text-center items-center">PLANT A TREE</button>
+               
 
-                        PLANT A TREE
-                    </button>
-
-                </div>
-                </section>
+                  </div>
+                
+                
             </div>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-25 mx-auto">
@@ -70,13 +79,14 @@ const Home = () => {
             <section id="a" class="text-gray-600 body-font,text-align-center">
                 <span style={{ fontSize: "60px" }}>A</span>
                 <div>
+                <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40md:h-36 w-100 object-cover object-center   " src="/image/african_junifer.webp" alt="blog"></img>
+                                <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/african_junifer.webp" alt="blog"></img>
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AFRICAN JUNIPER</h1>
-                                    <p class="leading-relaxed mb-3 text-centers">Native to mountainous areas in Africa and the Arabian Peninsula, The African Juniper Tree is an important timber tree used for building houses, for poles, for furniture; bark used for beehive</p>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AFRICAN JUNIPER</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Native to mountainous areas in Africa and the Arabian Peninsula, The African Juniper Tree is an important timber tree used for building houses, for poles, for furniture; bark used for beehive</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -88,9 +98,9 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/image4.webp" alt="blog"></img>
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/image4.webp" alt="blog"></img>
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN ARBORVITAE</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN ARBORVITAE</h1>
                                     <p class="leading-relaxed mb-3 text-center ">Meaning "tree of life", this medium-sized forest tree grows to a height of 40-60 ft. Was useful in early canoes and medicines and became the first North American tree to be introduced to Europe.</p>
                                     <div class="flex items-center flex-wrap">
 
@@ -101,10 +111,10 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imge5.jpg" alt="blog"></img>
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/imge5.jpg" alt="blog"></img>
                                 <div class="p-6">
 
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN BEECH</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN BEECH</h1>
                                     <p class="leading-relaxed mb-3 text-center">One of the most well-known trees in the state, given its wide distribution across forests. It is excellent as fuelwood. The disease on the bark of beech trees is currently threatening the species across its entire range.</p>
                                     <div class="flex items-center flex-wrap ">
 
@@ -118,10 +128,10 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/ima.webp" alt="blog"></img>
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/ima.webp" alt="blog"></img>
                                 <div class="p-6">
 
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN CHESTNUT</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN CHESTNUT</h1>
                                     <p class="leading-relaxed mb-3 text-center ">The American chestnut tree was once a dominant forest species, but due to a blight disease, is now rare. Before the blight, trees grew close to 115 ft tall, now surviving trees are smaller than 32 ft.</p>
                                     <div class="flex items-center flex-wrap">
 
@@ -132,6 +142,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                </div>
 
             </section>
 
@@ -140,6 +151,7 @@ const Home = () => {
             <section id="a" class="text-gray-600 body-font">
 
                 <div>
+                <div class="flex flex-col space-y-10 ...	margin-top: 2.5rem;  ">
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -203,6 +215,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                </div>
 
             </section>
 
@@ -213,6 +226,7 @@ const Home = () => {
             <section id="a" class="text-gray-600 body-font">
 
                 <div>
+                <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -275,6 +289,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                </div>
 
             </section>
 
@@ -284,9 +299,9 @@ const Home = () => {
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40md:h-36w-100 object-cover object-center" src="/image/imageA.webp" alt="blog"></img>
+                                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/imageA.webp" alt="blog"></img>
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN ELM</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN ELM</h1>
                                     <p class="leading-relaxed mb-3 text-center">The wood is strong and coarse-grained; largely used for veneer, crates and wheel hubs. It has nearly disappeared because of the Dutch Elm disease.  </p>
                                     <div class="flex items-center flex-wrap ">
 
@@ -299,9 +314,9 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageB.webp" alt="blog"></img>
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/imageB.webp" alt="blog"></img>
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN HORNBEAM</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN HORNBEAM</h1>
 
                                     <p class="leading-relaxed mb-3 text-center">The tree is slow-growing and is rarely found larger than 10 inches in diameter. It makes excellent fuelwood when seasoned.</p>
                                     <div class="flex items-center flex-wrap">
@@ -313,10 +328,10 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageC.webp" alt="blog"></img>
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/imageC.webp" alt="blog"></img>
                                 <div class="p-6">
 
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN LARCH</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN LARCH</h1>
                                     <p class="leading-relaxed mb-3 text-center">A forest tree of the swamps. The wood is very heavy, and strong, it is used for fence posts, telegraph poles, and railroad ties. </p>
                                     <div class="flex items-center flex-wrap ">
 
@@ -329,11 +344,11 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="p-4 md:w-1/4">
-                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageD.webp" alt="blog"></img>
+                            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/imageD.webp" alt="blog"></img>
                                 <div class="p-6">
 
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AMERICAN MOUNTAINASH</h1>
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AMERICAN MOUNTAINASH</h1>
                                     <p class="leading-relaxed mb-3 text-center">A relatively small tree, reaching only 40 ft in height. The American mountain-ash attains its largest pecimens on the northern shores of Lake Huron and Lake Superios</p>
                                     <div class="flex items-center flex-wrap">
 
@@ -357,7 +372,7 @@ const Home = () => {
                                 <div class="p-6">
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
                                     <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> There are isolated American Elm trees that survived Dutch Elm Disease with trunks over 4.5 m in circumference!
-</p>
+                                    </p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -373,7 +388,7 @@ const Home = () => {
                                 <div class="p-6">
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
                                     <p class="leading-relaxed mb-3 text-center ">Name "hornbeam" originates from old English words "horn", which was used to describe strong wood and "beam", that was used as a synonym for tree.
-</p>
+                                    </p>
                                     <div class="flex items-center flex-wrap">
 
 
@@ -422,82 +437,16 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-<div>
-    <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                <div class="p-6">
-                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
-                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> North Africa </p>
-                    <div class="flex items-center flex-wrap ">
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                <div class="p-6">
-                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
-                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
-                    <div class="flex items-center flex-wrap">
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                <div class="p-6">
-
-                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
-                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
-                    <div class="flex items-center flex-wrap ">
-
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                <div class="p-6">
-
-                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
-                    <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
-                    <div class="flex items-center flex-wrap">
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section>
-
-<section id="a" class="text-gray-600 body-font,text-align-center">
-             
                 <div>
+                   
+
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40md:h-36 w-100 object-cover object-center   " src="/image/imageE.webp" alt="blog"></img>
+
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">APPLE TREE</h1>
-                                    <p class="leading-relaxed mb-3 text-centers">There are over 7500 varieties of apples that can be found worldwide. They are part of human diet for thousands of years. This fruit is a symbol of temptation and immorality in Christianity.</p>
+                                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> North Africa </p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -509,10 +458,10 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageF.webp" alt="blog"></img>
+
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">ASPEN TREE</h1>
-                                    <p class="leading-relaxed mb-3 text-center ">A poplar tree that belongs to the willow family. here are six species of aspen that can be found in the temperate areas of the northern hemisphere. Aspen grows in sunny areas, on moist, well-drained so</p>
+                                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
                                     <div class="flex items-center flex-wrap">
 
 
@@ -522,11 +471,11 @@ const Home = () => {
                         </div>
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center" src="/image/imageG.webp" alt="blog"></img>
+
                                 <div class="p-6">
 
-                                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3 text-center">AVOCADO TREE</h1>
-                                    <p class="leading-relaxed mb-3 text-center">The avocado tree needs a warm climate, little wind, and well aerated soil to thrive. The trees are partially self pollinating, but are more effectively grown through grafting or its fruit’s seed.</p>
+                                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -537,7 +486,75 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-400 mb-3 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="a" class="text-gray-600 body-font,text-align-center">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0  " src="/image/imageE.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">APPLE TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">There are over 7500 varieties of apples that can be found worldwide. They are part of human diet for thousands of years. This fruit is a symbol of temptation and immorality in Christianity.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/imageF.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">ASPEN TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center ">A poplar tree that belongs to the willow family. here are six species of aspen that can be found in the temperate areas of the northern hemisphere. Aspen grows in sunny areas, on moist, well-drained so</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/imageG.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AVOCADO TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">The avocado tree needs a warm climate, little wind, and well aerated soil to thrive. The trees are partially self pollinating, but are more effectively grown through grafting or its fruit’s seed.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -548,13 +565,13 @@ const Home = () => {
             <section id="a" class="text-gray-600 body-font">
 
                 <div>
-                    <div class="flex flex-wrap -m-4">
+                    <div class="flex flex-wrap -m-3">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
-                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> The average apple tree produces 88 to 440 pounds of apples each year.</p>
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center mx-auto ">FUN FACT</h1>
+                                    <p class="lg:w-1/2 mx-auto leading-relaxed text-base text-center "> The average apple tree produces 88 to 440 pounds of apples each year.</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -563,13 +580,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-4 md:w-1/4">
+                        </div> 
+                        
+                        <div class="p-4 md:w-1/3 flex flex-wrap -m-3 ">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
                                 <div class="p-6">
-                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                                    <p class="leading-relaxed mb-3 text-center ">The heat-resistant wood of aspen trees have application in the manufacture of interior parts of sauna and roofing.</p>
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                    <p class="lg:w-1/2 mx-auto leading-relaxed mb-3 text-center ">The heat-resistant wood of aspen trees have application in the manufacture of interior parts of sauna and roofing.</p>
                                     <div class="flex items-center flex-wrap">
 
 
@@ -583,7 +601,7 @@ const Home = () => {
                                 <div class="p-6">
 
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                                    <p class="leading-relaxed mb-3 text-center">An avocado fruit is a type of berry.</p>
+                                    <p class="lg:w-1/1 mx-auto leading-relaxed mb-3 text-right-center">An avocado fruit is a type of berry.</p>
                                     <div class="flex items-center flex-wrap ">
 
 
@@ -594,15 +612,15 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
 
             </section>
 
 
- <span style={{ fontSize: "60px" }}>B</span>
- 
+            <span style={{ fontSize: "60px" }}>B</span>
+
 
         </div>
 
