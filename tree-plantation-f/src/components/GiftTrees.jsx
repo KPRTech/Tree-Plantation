@@ -1,5 +1,6 @@
 import React ,{ useState }from "react";
-import "./style.css"
+import "./style.css";
+//import { Tabs } from 'flowbite';
 function GiftTrees(){
 
     /*function to display imgs in large view and change opacity */
@@ -38,18 +39,68 @@ function GiftTrees(){
         setDonateVal("");
     }
     /** */
+    /**for tabs */
+    const [tabID , setTabID] = useState("tab1");
+    function handleTabsClicked (e){
+        //const clickedClasses = ["border-slate-500" , "text-gray-800"];
+        //const notClicked = ["border-transparent" , "text-emerald-600"];
+        setTabID(e.currentTarget.id);
+        console.log(e.currentTarget.classList)
+    }
+
+
+
+
+
+
+
+   /* const tabElements = [
+        {
+            id: 'overview',
+            triggerEl: document.querySelector('#tab1'),
+            targetEl: document.querySelector('#overview')
+        },
+        {
+            id: 'impact',
+            triggerEl: document.querySelector('#tab2'),
+            targetEl: document.querySelector('#impact')
+        },
+        {
+            id: 'whatyGet',
+            triggerEl: document.querySelector('#tab3'),
+            targetEl: document.querySelector('#whatYGet')
+        },
+        {
+            id: 'treespc',
+            triggerEl: document.querySelector('#tab4'),
+            targetEl: document.querySelector('#tree')
+        }
+    ];
+    
+    // options with default values
+    const options = {
+        defaultTabId: 'overview',
+        activeClasses: 'border-b-2 border-gray-500 text-gray-800 hover:text-gray-800',
+        inactiveClasses: 'border-transparent text-emerald-600',
+        onShow: () => {
+            console.log('tab is shown');
+        }
+    };
+    const tabs = new Tabs(tabElements, options);
+    tabs.show('overview');*/
     return(
-        <div className="w-95 mx-auto my-14">
+        <div className="w-full  my-14">
+        <div className="mx-auto w-10/6">
             <div className="flex flex-col md:flex-row justify-center lg:items-start">
                 <div className="lg:w-6/12 lg:mx-0 md:w-full md:mx-5">
-                    <img onClick={showImage} src={imgSrc} className="scale-100 w-full"/>
+                    <img onClick={showImage} alt="" src={imgSrc} className="scale-100 w-full"/>
                 
                 <ul className="w-full flex justify-center mt-8">
-                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img1" className={imgId === 'img1'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/GiftTrees-mainimage_2000x.jpg?v=1672941277" /> </li> 
-                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img2" className={imgId === 'img2'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-5_7643c241-ad1e-4719-ae8e-c6db2be015a6_2000x.jpg?v=1672941397" /> </li> 
-                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img3" className={imgId === 'img3'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/GiftTreesCertificate_2000x.png?v=1672941269" /> </li> 
-                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img4" className={imgId === 'img4'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-1_09548e46-f71c-4977-9c7f-97a3bd94214c_2000x.jpg?v=1672941410" /> </li> 
-                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img5" className={imgId === 'img5'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-3_a38e2530-d987-4e94-9f0c-8f6f64a003a5_2000x.jpg?v=1672941404" /> </li> 
+                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img1" alt="" className={imgId === 'img1'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/GiftTrees-mainimage_2000x.jpg?v=1672941277" /> </li> 
+                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img2" alt="" className={imgId === 'img2'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-5_7643c241-ad1e-4719-ae8e-c6db2be015a6_2000x.jpg?v=1672941397" /> </li> 
+                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img3" alt="" className={imgId === 'img3'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/GiftTreesCertificate_2000x.png?v=1672941269" /> </li> 
+                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img4" alt="" className={imgId === 'img4'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-1_09548e46-f71c-4977-9c7f-97a3bd94214c_2000x.jpg?v=1672941410" /> </li> 
+                    <li className="w-1/6 mr-2 cursor-pointer"><img onClick={showImage} id="img5" alt="" className={imgId === 'img5'?'opacity-100  transition-all duration-300	ease-in':'opacity-50  transition-all duration-300	ease-in'} src="https://cdn.shopify.com/s/files/1/0326/7189/products/PTWTNM-3_a38e2530-d987-4e94-9f0c-8f6f64a003a5_2000x.jpg?v=1672941404" /> </li> 
                 </ul>
                 </div>
             
@@ -76,9 +127,9 @@ function GiftTrees(){
                             <button onClick={handleClickedBtn} className="w-1/6 py-1.5 rounded text-sm text-gray-600 font-bold  border border-gray-500 hover:text-white hover:bg-gray-500 hover:border-transparent focus:text-white focus:bg-gray-500 transition-all duration-300	ease-in">100</button>
                             <button onClick={handleOtherBtn} className="w-1/6 py-1.5 rounded text-sm text-gray-600 font-bold  border border-gray-500 hover:text-white hover:bg-gray-500 hover:border-transparent focus:text-white focus:bg-gray-500 transition-all duration-300	ease-in">OTHER</button>
                         </div>
-                        <div className="flex justify-start my-2 border border-gray-500 text-gray-600 font-bold text-sm rounded divide-x divide-gray-500 mx-2">
+                        <div className="flex justify-start items-center my-2 border border-gray-500 text-gray-600 font-bold text-sm rounded  mx-2">
                             <span className="py-1 px-2">$</span>
-                            <span className="py-1 grow"><input  type="number"  name="numOfTrees" onChange={handleOnChange} value={donateVal.slice(0,7)} className="focus:outline-none focus:border-0 border-0 px-1 w-full"/></span>
+                            <span className="py-1 grow border-x border-gray-500"><input  type="number"  name="numOfTrees" onChange={handleOnChange} value={donateVal.slice(0,7)} className="focus:outline-none focus:border-0 focus:ring-0 border-0 px-1 w-full"/></span>
                             <span className="py-1 px-2 ">USD</span>
                         </div>
                         
@@ -116,36 +167,36 @@ function GiftTrees(){
                 <p className="font-bold text-base">A Tree Certificate will be sent to the recipient with the e-card.</p>
             </div>
 
-            <div className="flex lg:flex-row md:flex-col items-center">
+            <div className="flex lg:flex-row md:flex-col items-center justify-center">
                 <div className="w-6/12">
-                    <div className="table w-full">
-                    <div class="table-row">
-                        <div class="table-cell text-left">To:</div>
-                        <div class="table-cell text-left"><input type="text" placeholder="Type reciption's name" /></div>
+                    <div className="table w-full mb-4 border-spacing-y-4	">
+                    <div className="table-row">
+                        <div className="table-cell text-left text-sm font-bold">To:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's name" className="w-4/5 border-gray-300 text-sm text-gray-300" /></div>
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell text-left">e-mail:</div>
-                        <div class="table-cell text-left"><input type="text" placeholder="Type reciption's email" /></div>
+                    <div className="table-row">
+                        <div className="table-cell text-left text-sm font-bold">e-mail:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's email" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell text-left">From:</div>
-                        <div class="table-cell text-left"><input type="text" placeholder="Type your name" /></div>
+                    <div className="table-row">
+                        <div className="table-cell text-left text-sm font-bold">From:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type your name" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell text-left">Title:</div>
-                        <div class="table-cell text-left"><input type="text" placeholder="Type a title - ex: Happy Birthday! - max 30 characters" /></div>
+                    <div className="table-row">
+                        <div className="table-cell text-left text-sm font-bold">Title:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type a title - ex: Happy Birthday! - max 30 characters" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell text-left">Message:</div>
-                        <div class="table-cell text-left"><textarea placeholder="Type a message - ex: Enjoy Yout Gift! - max 250 characters"></textarea></div>
+                    <div className="table-row">
+                        <div className="table-cell text-left text-sm font-bold">Message:</div>
+                        <div className="table-cell text-left"><textarea placeholder="Type a message - ex: Enjoy Yout Gift! - max 250 characters"className="w-4/5 border-gray-300 text-sm text-gray-300 h-5"></textarea></div>
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell text-left">Delivery Date:</div>
-                        <div class="table-cell text-left"><input type="date" placeholder="01/28/2023" /></div>
+                    <div className="table-row mb-2">
+                        <div className="table-cell text-left text-sm font-bold">Delivery Date:</div>
+                        <div className="table-cell text-left"><input type="date" placeholder="01/28/2023" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
                     </div>
                     </div>
                 </div>
-                <div className="w-6/12">right</div>
+                <div className="w-5/12">right</div>
             </div>
 
             <div className="flex lg:flex-row md:flex-col sm:flex-col w-full items-center justify-center">
@@ -156,24 +207,27 @@ function GiftTrees(){
                 
             </div>
         </div> {/**end of second container */}
-        <div className="w-100 bg-gray-50 relative ">
-            <div className=" h-96 bg-[url('https://cdn.shopify.com/s/files/1/0326/7189/files/trees.svg?v=1621541883')] bg-no-repeat bg-right-bottom bg-auto lg:opacity-95 md:opacity-60 sm:opacity-60">
-            </div>
-            <div className="z-40 absolute left-10 top-10 w-7/12">
-                <ul className="flex justify-start">
-                    <li className="mr-10"><a href="#tab1">OVERVIEW</a></li>
-                    <li className="mr-10"><a href="#tab2">iMPACT</a></li>
-                    <li className="mr-10"><a href="#tab3">WHAT YOU GET</a></li>
-                    <li className="mr-10"><a href="#tab4">TREE SPECIES</a></li>
-                </ul>
-                <ul>
-                    <li id="tab1" className="visible"><p>Give the gift of trees! Trees are an environmentally-friendly option that helps to create a healthier planet. These trees will be planted to support AFR100 with TerraFund. As Africa is on a mission to reverse these trends and restore 100 million hectares of land by 2030, this country-led effort will restore 100 million hectares of land by 2030. This restoration work aims to enhance food security, increase climate change resilience and mitigation and combat rural poverty. This work will revolve around 32 participating countries in Africa, along with local communities, national governments, public and private sector partners, and international development programs.</p></li>
-                    <li id="tab2" className="invisible"><p>Planting trees in Africa reaps multiple benefits! Notably, reforestation here will help to add nutrients to the soil and control erosion, minimize poverty within local communities through the creation of jobs, and improve food security by feeding impoverished families through the planting of fruit trees. Ultimately, added forest cover in this region will diminish pressure on remaining forests, allowing biodiversity to flourish and ultimately helping with the global climate crisis.</p></li>
-                    <li id="tab3" className="invisible"><p>Both you and the giftee will receive a personalized tree certificate (see gallery) with the recipient's name to thank you for your donation. The giftee will get a custom e-card created by you on your date of choice. We will also send you updates about this project, so you can track the impact your trees are having on the community and environment.</p></li>
-                    <li id="tab4" className="invisible"><p>We will plant an array of indigenous tree species throughout Africa, such as Senegalia polyacantha, Faidherbia albida, Albizia adianthifolia, Persea americana, Calliandra calothyrsus, Macadamia spp., shea, and mahogany. Fruit trees will also be planted, which include mango, orange, tangerine, avocado, apple, guava, and Brazil nut. </p></li>
-                </ul>
-                    
+        <div className="w-100 bg-gray-50 flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-evenly">
+            <div className=" lg:w-2/4 md:w-full sm:w-full xs:w-full lg:mt-12 lg:ml-12 md:m-0 sm:m-0 xs:m-0">
+                <div className="border-b border-gray-200 text-sm ">
+                    <ul id="tabs" className="flex flex-wrap justify-between -mb-px text-sm font-medium text-center">
+                        <li><button id="tab1" onClick={handleTabsClicked} type="button" className='inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800'>OVERVIEW</button></li>
+                        <li><button id="tab2" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">iMPACT</button></li>
+                        <li><button id="tab3" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">WHAT YOU GET</button></li>
+                        <li><button id="tab4" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">TREE SPECIES</button></li>
+                    </ul>
                 </div>
+                
+                <ul id="myTabContent" className="mt-5 text-left">
+                    <li className={tabID === "tab1"?"block":"hidden"}><p>Give the gift of trees! Trees are an environmentally-friendly option that helps to create a healthier planet. These trees will be planted to support AFR100 with TerraFund. As Africa is on a mission to reverse these trends and restore 100 million hectares of land by 2030, this country-led effort will restore 100 million hectares of land by 2030. This restoration work aims to enhance food security, increase climate change resilience and mitigation and combat rural poverty. This work will revolve around 32 participating countries in Africa, along with local communities, national governments, public and private sector partners, and international development programs.</p></li>
+                    <li className={tabID === "tab2"?"block":"hidden"}><p>Planting trees in Africa reaps multiple benefits! Notably, reforestation here will help to add nutrients to the soil and control erosion, minimize poverty within local communities through the creation of jobs, and improve food security by feeding impoverished families through the planting of fruit trees. Ultimately, added forest cover in this region will diminish pressure on remaining forests, allowing biodiversity to flourish and ultimately helping with the global climate crisis.</p></li>
+                    <li className={tabID === "tab3"?"block":"hidden"}><p>Both you and the giftee will receive a personalized tree certificate (see gallery) with the recipient's name to thank you for your donation. The giftee will get a custom e-card created by you on your date of choice. We will also send you updates about this project, so you can track the impact your trees are having on the community and environment.</p></li>
+                    <li className={tabID === "tab4"?"block":"hidden"}><p>We will plant an array of indigenous tree species throughout Africa, such as Senegalia polyacantha, Faidherbia albida, Albizia adianthifolia, Persea americana, Calliandra calothyrsus, Macadamia spp., shea, and mahogany. Fruit trees will also be planted, which include mango, orange, tangerine, avocado, apple, guava, and Brazil nut. </p></li>
+                </ul>
+            </div>
+            <div className="grow lg:w-1/4 md:w-full xs:w-full sm:w-full">
+                <img src="https://cdn.shopify.com/s/files/1/0326/7189/files/trees.svg?v=1621541883" alt="" className="lg:opacity-95 md:opacity-60 sm:opacity-60 xs:opacity-60" />
+            </div>
         </div>{/**end of third container */}
         <div className="flex justify-between items-center my-14 border-solid border-b border-gray-300 pb-20 md:flex-row sm:flex-col xs:flex-col">
             <div className="flex flex-col items-center md:w-1/6 sm:w-full">
@@ -218,6 +272,7 @@ function GiftTrees(){
                 </div>
             </div>
         </div>
+    </div>{/**end of wrapper div */}
     </div> /**end of page_return div */
     );
 }
