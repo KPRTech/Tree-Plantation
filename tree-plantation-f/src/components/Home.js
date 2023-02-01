@@ -30,7 +30,7 @@ const Home = () => {
                 }}>LEARN ABOUT THE  DIFFERENT
                     TYPES OF TREE SPECIES</p>
                 <div>
-                <button class="flex mx-auto bg-gray-100 
+                <button className="flex mx-auto bg-gray-100 
      text-black   font-bold py-2 px-4 mt-6  text-center items-center">PLANT A TREE</button>
                
 
@@ -38,11 +38,19 @@ const Home = () => {
                 
                 
             </div>
+            
+           
+
+
+
+
+
+                
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-25 mx-auto">
+                <div class="container px-5 py-35 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-500">TYPES OF TREES</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Did you know that the world is home to over 60,000 different tree species? Trees provide innumerous benefits such as clean air, water, biodiversity, social impact, health and help to regulate climate. </p>
+                        <p class="lg:w-2/3mx-auto leading-relaxed text-base ">Did you know that the world is home to over 60,000 different<p className="font-bold "> tree species</p>? Trees provide innumerous benefits such as <a href='#a'><span style={{ fontSize: "17px", color: "green"}}>clean air, water,</span></a><p className="font-bold "> biodiversity, social impact, health</p>and help to <a href='#a'><span style={{ fontSize: "17px", color: "green"}}> regulate climate</span> </a></p>
                         <p class="lg:w-2/3 mx-auto leading-rellaxed text-base"> Read on to find out the main types of trees, where each tree species is located, common tree planting regions and some fun tree facts! </p>
                     </div>
                     <div class="flex flex-wrap -m-4 text-center">
@@ -564,8 +572,8 @@ const Home = () => {
 
             <section id="a" class="text-gray-600 body-font">
 
-                <div>
-                    <div class="flex flex-wrap -m-3">
+                <div className='w-full'>
+                    <div class="flex flex-wrap -m-3 mx-auto">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
