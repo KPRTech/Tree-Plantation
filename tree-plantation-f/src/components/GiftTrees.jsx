@@ -1,11 +1,14 @@
-import React ,{ useState }from "react";
+import React ,{ useState, Component } from "react";
 import "./style.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 //import { Tabs } from 'flowbite';
 function GiftTrees(){
 
     /*function to display imgs in large view and change opacity */
    const [imgSrc , setImg] = useState("https://cdn.shopify.com/s/files/1/0326/7189/products/GiftTrees-mainimage_2000x.jpg?v=1672941277");
-   const [imgId , setImgId] = useState("img1")
+   const [imgId , setImgId] = useState("img1");
    
    function showImage(event){
         const imgURL = event.target.src;
@@ -13,6 +16,17 @@ function GiftTrees(){
         const getId = event.target.id;
         setImgId(getId);
        }
+
+       const [sliderImgSrc , setSliderImg] = useState("https://onetreeplantedgifts.org/APPS/uploads/bg_img/118_snowy-trees-and-mountains.jpg");
+       const [sliderImgID , setSliderImgID] = useState("sliderImg1");
+       
+       function showSliderImage(event){
+            const getSliderSrc = event.target.src;
+            setSliderImg(getSliderSrc);
+            const getSliderID = event.target.id;
+            setSliderImgID(getSliderID);
+           }
+      
     /****************************************************************************************************** */
     /*function to get only the max length of input */
     /*function handleInput(e){
@@ -88,6 +102,41 @@ function GiftTrees(){
     };
     const tabs = new Tabs(tabElements, options);
     tabs.show('overview');*/
+    /**for img slider */
+    var settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
     return(
         <div className="w-full  my-14">
         <div className="mx-auto w-10/6">
@@ -167,36 +216,61 @@ function GiftTrees(){
                 <p className="font-bold text-base">A Tree Certificate will be sent to the recipient with the e-card.</p>
             </div>
 
-            <div className="flex lg:flex-row md:flex-col items-center justify-center">
-                <div className="w-6/12">
-                    <div className="table w-full mb-4 border-spacing-y-4	">
+            <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col items-start justify-center mb-8">
+                <div className="lg:w-6/12 md:w-6/12 sm:w-full xs:w-full">
+                    <div className="table w-full mb-1 border-spacing-y-2 table-auto">
                     <div className="table-row">
-                        <div className="table-cell text-left text-sm font-bold">To:</div>
-                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's name" className="w-4/5 border-gray-300 text-sm text-gray-300" /></div>
+                        <div className="table-cell text-left text-sm font-bold w-28">To:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's name" className="w-4/5 border-gray-300 text-sm text-gray-300 rounded-sm" /></div>
                     </div>
                     <div className="table-row">
-                        <div className="table-cell text-left text-sm font-bold">e-mail:</div>
-                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's email" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
+                        <div className="table-cell text-left text-sm font-bold w-28">e-mail:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type reciption's email" className="w-4/5 border-gray-300 text-sm text-gray-300 rounded-sm"/></div>
                     </div>
                     <div className="table-row">
-                        <div className="table-cell text-left text-sm font-bold">From:</div>
-                        <div className="table-cell text-left"><input type="text" placeholder="Type your name" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
+                        <div className="table-cell text-left text-sm font-bold w-28">From:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type your name" className="w-4/5 border-gray-300 text-sm text-gray-300 rounded-sm"/></div>
                     </div>
                     <div className="table-row">
-                        <div className="table-cell text-left text-sm font-bold">Title:</div>
-                        <div className="table-cell text-left"><input type="text" placeholder="Type a title - ex: Happy Birthday! - max 30 characters" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
+                        <div className="table-cell text-left text-sm font-bold w-28">Title:</div>
+                        <div className="table-cell text-left"><input type="text" placeholder="Type a title - ex: Happy Birthday! - max 30 characters" className="w-4/5 border-gray-300 text-sm text-gray-300 rounded-sm"/></div>
                     </div>
                     <div className="table-row">
-                        <div className="table-cell text-left text-sm font-bold">Message:</div>
-                        <div className="table-cell text-left"><textarea placeholder="Type a message - ex: Enjoy Yout Gift! - max 250 characters"className="w-4/5 border-gray-300 text-sm text-gray-300 h-5"></textarea></div>
+                        <div className="table-cell text-left text-sm font-bold align-top w-28">Message:</div>
+                        <div className="table-cell text-left"><textarea placeholder="Type a message - ex: Enjoy Yout Gift! - max 250 characters"className="w-4/5 border-gray-300 text-sm text-gray-300 h-40 rounded-sm"></textarea></div>
                     </div>
                     <div className="table-row mb-2">
-                        <div className="table-cell text-left text-sm font-bold">Delivery Date:</div>
-                        <div className="table-cell text-left"><input type="date" placeholder="01/28/2023" className="w-4/5 border-gray-300 text-sm text-gray-300"/></div>
+                        <div className="table-cell text-left text-sm font-bold w-28">Delivery Date:</div>
+                        <div className="table-cell text-left"><input type="date" placeholder="01/28/2023" className="w-4/5 border-gray-300 text-sm text-gray-300 rounded-sm"/></div>
                     </div>
                     </div>
+                    <p className="text-left  text-sm"><span className="font-bold">Please Note:</span> Post-dated e-cards will be <span className="font-bold">sent at approximately 00:00 UTC</span> on the date selected.</p>
                 </div>
-                <div className="w-5/12">right</div>
+                <div className="lg:w-5/12 md:5/12 sm:w-full xs:w-full">
+                
+                    <div>
+                    
+                        <ul className=" mb-4">
+                        <Slider {...settings}>
+                            <li className="mr-2"><img id="sliderImg1" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/118_snowy-trees-and-mountains.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg2" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/115_warm-beverage-and-blanket-by-the-window.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg3" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/116_snowy-cabin-and-aurora-borealis.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg4" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/114_bird-in-snowy-branches.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg5" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/110_lion-and-cub.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg6" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/106_monarch-butterflies.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg7" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/56_v7.jpg" alt="" /></li>
+                            <li className="mr-2"><img id="sliderImg8" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/99_v10.jpg" alt="" /></li>
+                        
+                        </Slider>
+                        </ul>
+                        
+                    </div>
+                
+                    <div>
+                        <img src={sliderImgSrc} alt="" className="w-full h-80" />
+                    </div>
+                    
+                </div>
             </div>
 
             <div className="flex lg:flex-row md:flex-col sm:flex-col w-full items-center justify-center">
