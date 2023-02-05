@@ -18,26 +18,12 @@ function GiftTrees(){
        }
 
        const [sliderImgSrc , setSliderImg] = useState("https://onetreeplantedgifts.org/APPS/uploads/bg_img/118_snowy-trees-and-mountains.jpg");
-       const [sliderImgID , setSliderImgID] = useState("sliderImg1");
        
        function showSliderImage(event){
             const getSliderSrc = event.target.src;
             setSliderImg(getSliderSrc);
-            const getSliderID = event.target.id;
-            setSliderImgID(getSliderID);
            }
-      
-    /****************************************************************************************************** */
-    /*function to get only the max length of input */
-    /*function handleInput(e){
-        const inputValLength = e.target.value.length;
-        const maxLength = e.target.maxLength;
-        //console.log(inputVal);
-        if(inputValLength > maxLength){
-            
-          e.target.value.slice(0,maxLength);
-            }
-        }*/
+
     /****************************************************************************************************** */
     /**function to get input value */
     const [donateVal , setDonateVal] = useState("00");
@@ -56,53 +42,22 @@ function GiftTrees(){
     /**for tabs */
     const [tabID , setTabID] = useState("tab1");
     function handleTabsClicked (e){
-        //const clickedClasses = ["border-slate-500" , "text-gray-800"];
-        //const notClicked = ["border-transparent" , "text-emerald-600"];
+        const clickedClasses = ["border-slate-500" , "text-gray-800"];
+        const notClicked = ["border-transparent" , "text-emerald-600"];
         setTabID(e.currentTarget.id);
-        console.log(e.currentTarget.classList)
+        //ID = e.currentTarget.id;
+        
+        let tablinks = document.getElementsByClassName("tabEle");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.add(...notClicked);
+            tablinks[i].classList.remove(...clickedClasses);
+          }
+          e.currentTarget.classList.remove(...notClicked);
+          e.currentTarget.classList.add(...clickedClasses);
     }
 
 
-
-
-
-
-
-   /* const tabElements = [
-        {
-            id: 'overview',
-            triggerEl: document.querySelector('#tab1'),
-            targetEl: document.querySelector('#overview')
-        },
-        {
-            id: 'impact',
-            triggerEl: document.querySelector('#tab2'),
-            targetEl: document.querySelector('#impact')
-        },
-        {
-            id: 'whatyGet',
-            triggerEl: document.querySelector('#tab3'),
-            targetEl: document.querySelector('#whatYGet')
-        },
-        {
-            id: 'treespc',
-            triggerEl: document.querySelector('#tab4'),
-            targetEl: document.querySelector('#tree')
-        }
-    ];
-    
-    // options with default values
-    const options = {
-        defaultTabId: 'overview',
-        activeClasses: 'border-b-2 border-gray-500 text-gray-800 hover:text-gray-800',
-        inactiveClasses: 'border-transparent text-emerald-600',
-        onShow: () => {
-            console.log('tab is shown');
-        }
-    };
-    const tabs = new Tabs(tabElements, options);
-    tabs.show('overview');*/
-    /**for img slider */
+    /* for img slider */
     var settings = {
         dots: true,
         infinite: false,
@@ -246,11 +201,11 @@ function GiftTrees(){
                     </div>
                     <p className="text-left  text-sm"><span className="font-bold">Please Note:</span> Post-dated e-cards will be <span className="font-bold">sent at approximately 00:00 UTC</span> on the date selected.</p>
                 </div>
-                <div className="lg:w-5/12 md:5/12 sm:w-full xs:w-full">
+                <div className="lg:w-5/12 md:5/12 sm:w-full xs:w-full mb-4">
                 
-                    <div>
+                    <div className="mb-6">
                     
-                        <ul className=" mb-4">
+                        <ul className="mb-2">
                         <Slider {...settings}>
                             <li className="mr-2"><img id="sliderImg1" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/118_snowy-trees-and-mountains.jpg" alt="" /></li>
                             <li className="mr-2"><img id="sliderImg2" onClick={showSliderImage} className="w-28 h-16" src="https://onetreeplantedgifts.org/APPS/uploads/bg_img/115_warm-beverage-and-blanket-by-the-window.jpg" alt="" /></li>
@@ -285,10 +240,10 @@ function GiftTrees(){
             <div className=" lg:w-2/4 md:w-full sm:w-full xs:w-full lg:mt-12 lg:ml-12 md:m-0 sm:m-0 xs:m-0">
                 <div className="border-b border-gray-200 text-sm ">
                     <ul id="tabs" className="flex flex-wrap justify-between -mb-px text-sm font-medium text-center">
-                        <li><button id="tab1" onClick={handleTabsClicked} type="button" className='inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800'>OVERVIEW</button></li>
-                        <li><button id="tab2" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">iMPACT</button></li>
-                        <li><button id="tab3" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">WHAT YOU GET</button></li>
-                        <li><button id="tab4" onClick={handleTabsClicked} type="button" className="inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 ">TREE SPECIES</button></li>
+                        <li><button id="tab1" onClick={handleTabsClicked} type="button" className="tabEle inline-block p-2   text-xs  rounded-t-lg hover:text-gray-800 border-b-2 border-slate-500 text-gray-800">OVERVIEW</button></li>
+                        <li><button id="tab2" onClick={handleTabsClicked} type="button" className="tabEle inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 border-b-2">iMPACT</button></li>
+                        <li><button id="tab3" onClick={handleTabsClicked} type="button" className="tabEle inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 border-b-2">WHAT YOU GET</button></li>
+                        <li><button id="tab4" onClick={handleTabsClicked} type="button" className="tabEle inline-block p-2   text-xs  rounded-t-lg text-emerald-600 hover:text-gray-800 border-b-2">TREE SPECIES</button></li>
                     </ul>
                 </div>
                 
