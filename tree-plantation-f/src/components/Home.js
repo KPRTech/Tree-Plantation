@@ -8,7 +8,7 @@ const Home = () => {
 
                 <h1 style={{
                     textAlign: "center",
-                    fontSize: "60px", color: "#fff",
+                    color: "#fff",
                     fontFamily: "Raleway",
                     fontWeight: "800",
                     fontSize: "80px",
@@ -41,16 +41,25 @@ const Home = () => {
 
 
 
+            <div>
 
+            </div>
+        
+           <div class="flex justify-center items-center p-10">
+          <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/5771766.png" alt="blog"></img> </div>
+          <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702299.png" alt="blog"></img></div>
+          
+           
+          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
 
+          </div>
 
+            <section class="text-gray-600 body-font ">
 
-
-            <section class="text-gray-600 body-font">
                 <div class="container px-5 py-35 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-500">TYPES OF TREES</h1>
-                        <p class="lg:w-2/3mx-auto leading-relaxed text-base ">Did you know that the world is home to over 60,000 different<p className="font-bold "> tree species</p>? Trees provide innumerous benefits such as <a href='#a'><span style={{ fontSize: "17px", color: "green" }}>clean air, water,</span></a><p className="font-bold "> biodiversity, social impact, health</p>and help to <a href='#a'><span style={{ fontSize: "17px", color: "green" }}> regulate climate</span> </a></p>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base ">Did you know that the world is home to over 60,000 different<p className="font-bold "> tree species</p>? Trees provide innumerous benefits such as <a href='#a'><span style={{ fontSize: "17px", color: "green" }}>clean air, water,</span></a><p className="font-bold "> biodiversity, social impact, health</p>and help to <a href='#a'><span style={{ fontSize: "17px", color: "green" }}> regulate climate</span> </a></p>
                         <p class="lg:w-2/3 mx-auto leading-rellaxed text-base"> Read on to find out the main types of trees, where each tree species is located, common tree planting regions and some fun tree facts! </p>
                     </div>
                     <div class="flex flex-wrap -m-4 text-center">
@@ -573,7 +582,7 @@ const Home = () => {
 
 
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container p-2  mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -617,10 +626,10 @@ const Home = () => {
             </section>
 
 
- <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+            <section class="text-gray-600 body-font">
+                <div class="container p-4  mx-auto">
                     <div class="flex flex-wrap -m-4">
-                        <div class="p-4 lg:w-1/3">
+                        <div class="p-0 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-3">PLANTING REGION</h1>
@@ -662,7 +671,7 @@ const Home = () => {
             </section>
 
 
-            <span style={{ fontSize: "60px" }}>B</span>
+
 
 
         </div>
