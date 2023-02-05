@@ -1,20 +1,22 @@
 import React from "react";
-
+import "./style.css";
 function Business (){
 
     return(
         <div>
-            <div>
-                <h1>SUSTAINABILITY FOR BUSINESSES</h1>
-                <p>WE WORK WITH BUSINESSES THAT WANT TO MAKE AN IMPACT AND </p>
-                <p>HELP IMPROVE THEIR SUSTAINABILITY INITIATIVES</p>
-                <div>
-                    <button className="flex justify-center items-center rounded text-white font-bold bg-red-600 py-2 w-10/12 px-2 ml-4 hover:bg-red-500 transition-all duration-300	ease-in text-xs hover:text-sm max-h-14 h-10">
+            <div className="backImg bg-local bg-center bg-no-repeat bg-cover sm:h-96 xs:h-96">
+                <h1 className="text-5xl text-white text-center font-bold pt-28 sm:block xs:hidden">SUSTAINABILITY FOR </h1>
+                <h1 className="text-7xl text-white text-center font-bold sm:block xs:hidden">BUSINESSES</h1>
+                <h1 className="text-5xl text-white text-center font-bold pt-28 sm:hidden xs:block">SUSTAINABILITY FOR BUSINESSES</h1>
+                <p className=" text-xl text-white text-center mt-10 sm:block xs:hidden">WE WORK WITH BUSINESSES THAT WANT TO MAKE AN IMPACT AND </p>
+                <p className=" text-xl text-white text-center sm:block xs:hidden mb-16">HELP IMPROVE THEIR SUSTAINABILITY INITIATIVES</p>
+                <div className="flex justify-center items-center sm:flex-row xs:flex-col mt-5">
+                    <button className=" w-72 rounded text-white font-bold bg-red-600 py-1 px-2 ml-4 hover:bg-red-500 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>SETUP A ZOOM CALL</span> </button>
-                    <button className="flex justify-center items-center rounded text-white font-bold bg-red-600 py-2 w-10/12 px-2 ml-4 hover:bg-red-500 transition-all duration-300	ease-in text-xs hover:text-sm max-h-14 h-10">
+                    <button className=" w-72 rounded text-white font-bold bg-teal-600 py-1 px-2 ml-4 hover:bg-teal-500 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                         <span>BECOME A BUSINESS PARTENER</span> </button>
                 </div>
-
+            </div>{/**end first conatiner */}
                 <div>
                     <ul className="bg-gray-400 flex">
                         <li><a href="#acition"> WORKING WITH BRANDS LIKE:</a></li>
@@ -62,7 +64,7 @@ function Business (){
                     <p>By being flexible and understanding your needs, we find the best way for your business to make a difference.
                     Whether it's by organizing employee events, or donating to our global planting projects, our business partners are making a positive impact.</p>
                 </div>{/**end title div */}
-            </div>{/**end first conatiner */}
+            
         </div>/**End return div */
 );
 

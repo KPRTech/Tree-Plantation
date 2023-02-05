@@ -9,3 +9,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.backImg{
+  background-image: url("https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/forestaerialview-1661377248509.jpg?v=1661377249");
+  height: 600px;
+}
