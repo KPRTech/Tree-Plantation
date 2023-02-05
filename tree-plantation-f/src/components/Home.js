@@ -51,6 +51,9 @@ const Home = () => {
           
            
           <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
+          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images.png" alt="blog"></img></div>
+          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images (1).jpg" alt="blog"></img></div>
+          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/download.png" alt="blog"></img></div>
 
           </div>
 
