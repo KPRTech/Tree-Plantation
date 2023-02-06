@@ -1,37 +1,41 @@
 import React from "react";
 import "./style.css";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 function Business (){
     var settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 6,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 5,
+              slidesToScroll: 1,
               infinite: true,
-              dots: true
+              
             }
           },
           {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToScroll: 1,
+              initialSlide: 0,
+              dots: true
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
             }
           }
         ]
@@ -52,15 +56,30 @@ function Business (){
                         <span>BECOME A BUSINESS PARTENER</span> </button>
                 </div>
             </div>{/**end first conatiner */}
-                <div className="bg-sky-900">
+            
+                <div className="bg-sky-900 py-4">
+                    <div className="h-24 w-11/12 mx-auto">
                     <Slider {...settings}>
-                        <div> <a href="#action" className="text-white"> WORKING WITH BRANDS LIKE:</a></div>
-                        <div> <a href="#action"><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/visa-1660771686400.png?v=1660771708" alt="" /></a></div>
-                        <div> <a href="#action"><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/reebok-1660772238380.png?v=1660772251" alt="" /></a></div>
-                        <div> <a href="#action"><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/astrazeneca-1660772895863.png?v=1660772897" alt="" /></a></div>
-                        <div> <a href="#action"><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hyundai-1660772238379.png?v=1660772246" alt="" /></a></div>
-                        <div> <a href="#action"><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hsbclogo-1666193410806.png?v=1666193412" alt="" /></a></div>
+                        <div className="w-40 text-white mt-6 ml-1"> 
+                          <a href="#action" className=" break-words w-40 block font-bold">WORKING WITH BRANDS LIKE:</a>
+                        </div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/visa-1660771686400.png?v=1660771708" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/reebok-1660772238380.png?v=1660772251" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/astrazeneca-1660772895863.png?v=1660772897" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hyundai-1660772238379.png?v=1660772246" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hsbclogo-1666193410806.png?v=1666193412" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/caterpillar-1660771686396.png?v=1660771692" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hendricksgin-1667223640529.png?v=1667223641" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/nikinwhitelogoo-1662485362188.png?v=1662485363" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/tobleronelogowhite-1662483221526.png?v=1662483222" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/originswhitelogoo-1662485362189.png?v=1662485372" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/acerwhitelogo-1662484754661.png?v=1662484756" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/amazonalexalogo-1662480957764.png?v=1662480959" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/flordecanalogowhite-1662482457527.png?v=1662482458" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/whitepelicanproductslogo-1662485212621.png?v=1662485213" alt="" /></a></div>
+                        <div className=""> <a href="#action"><img className=" w-40" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/kyndryllogo-1666193498258.png?v=1666193499" alt="" /></a></div>
                     </Slider>
+                    </div>
                 </div>{/**end sponser area */}
                 <div>
                     <ul className="flex justify-center my-5">
