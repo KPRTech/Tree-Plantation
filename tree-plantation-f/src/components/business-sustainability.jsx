@@ -106,19 +106,48 @@ function Business (){
                     </ul>
                 </div>{/**end social area */}
 
-                <div>
-                    <div>
-                        <p>Now, more than ever, businesses need to think about their effects on the planet and how they can start giving back to the environment. We're on a mission to <span className=" font-bold">make it simple for businesses to give back</span> in a way that has both immediate and long-term impact and a model that can be tailored to work for your business.</p>
+                <div className="bgTree bg-gray-50 sm:pt-24 xs:pt-16">
+                    <div className=" sm:w-7/12 xs:w-full sm:text-xl xs:text-base m-auto text-center">
+                        <p className=" mb-2">Now, more than ever, businesses need to think about their effects on the planet and how they can start giving back to the environment. We're on a mission to <span className=" font-bold">make it simple for businesses to give back</span> in a way that has both immediate and long-term impact and a model that can be tailored to work for your business.</p>
                         <p>With hundreds of projects with great stories, locations, and impact areas, we're destined to <span className=" font-bold">find the planting project that best fits your brand, mission, and goals.</span></p>
                     </div>
                 </div>{/**end trees background area */}
 
-                <div>
-                    <h1>ACHIEVE YOUR SUSTAINABILITY GOALS</h1>
-                    <p>By being flexible and understanding your needs, we find the best way for your business to make a difference.
-                    Whether it's by organizing employee events, or donating to our global planting projects, our business partners are making a positive impact.</p>
+                <div className="py-5 text-center m-auto sm:px-0 xs:px-4">
+                    <h1 className="sm:px-0 xs:px-2 sm:text-4xl xs:text-2xl font-bold sm:py-10 xs:py-6">ACHIEVE YOUR SUSTAINABILITY GOALS</h1>
+                    <p className=" sm:text-xl xs:text-base mb-1">By being flexible and understanding your needs, <span className=" font-bold">we find the best way for your business to make a difference.</span></p>
+                    <p className=" sm:text-xl xs:text-base">Whether it's by organizing employee events, or donating to our global planting projects, <span className=" font-bold">our business partners are making a positive impact.</span></p>
                 </div>{/**end title div */}
-            
+                <div className="my-10 flex justify-around items-stretch flex-wrap">
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
+                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5501eace--treeplanting.jpg?v=1624897998" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3">SUPPORT REFORESTATION</h1>
+                    <p className=" text-base font-normal mb-3">Plant one tree for <span className=" font-bold">every product or service sold with our one-for-one model</span>, donate a percentage of sales, or formulate special giving campaigns on social media.</p>
+                    <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                            <span>BECOME A PARTENER</span> </button>
+                  </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
+                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/groupofemployeeattreeplantingeventinmexico-1641504949839.jpg?v=1641504977" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3">EMPLOYEE ENGAGEMENT</h1>
+                    <p className=" text-base font-normal mb-3">Our global tree planting events will help your team connect with nature, while also contributing to a <span className=" font-bold">positive environmental impact.</span></p>
+                    <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                            <span>PLAN AN ACTIVITY</span> </button>
+                  </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
+                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-urban-tree-new-york-city-1660765574971.jpg?v=1660765577" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3">URBAN REFORESTATION</h1>
+                    <p className=" text-base font-normal mb-3">Support one of our urban reforestation projects by planting close to your <span className=" font-bold">headquarters</span> and improving your <span className=" font-bold">local biodiversity.</span></p>
+                    <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                            <span>LEARN MORE</span> </button>
+                  </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
+                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-d4609a08--milliontreechallenge.jpg?v=1628543783" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3">MILLION TREE CHALLENGE</h1>
+                    <p className=" text-base font-normal mb-3">Join an exclusive community of only 100 environmentally conscious businesses who are <span className=" font-bold">planting 10,000 trees across US National Forests</span></p>
+                    <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                            <span>JOIN THE CHALLENGE</span> </button>
+                  </div>
+                </div>{/**end activities area */}
         </div>/**End return div */
 );
 
