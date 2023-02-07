@@ -44,18 +44,18 @@ const Home = () => {
             <div>
 
             </div>
-        
-           <div class="flex justify-center items-center p-10">
-          <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/5771766.png" alt="blog"></img> </div>
-          <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702299.png" alt="blog"></img></div>
-          
-           
-          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
-          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images.png" alt="blog"></img></div>
-          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images (1).jpg" alt="blog"></img></div>
-          <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/download.png" alt="blog"></img></div>
 
-          </div>
+            <div class="flex justify-center items-center p-10">
+                <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/5771766.png" alt="blog"></img> </div>
+                <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702299.png" alt="blog"></img></div>
+
+
+                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
+                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images.png" alt="blog"></img></div>
+                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images (1).jpg" alt="blog"></img></div>
+                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/download.png" alt="blog"></img></div>
+
+            </div>
 
             <section class="text-gray-600 body-font ">
 
@@ -105,7 +105,7 @@ const Home = () => {
                                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/african_junifer.webp" alt="blog"></img>
                                     <div class="p-6">
-                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">AFRICAN JUNIPER</h1>
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">AFRICAN JUNIPER</h1>
                                         <p class="leading-relaxed mb-3 text-center">Native to mountainous areas in Africa and the Arabian Peninsula, The African Juniper Tree is an important timber tree used for building houses, for poles, for furniture; bark used for beehive</p>
                                         <div class="flex items-center flex-wrap ">
 
@@ -243,7 +243,7 @@ const Home = () => {
 
 
 
-            <section id="a" class="text-gray-600 body-font">
+            <section id="a" class="text-gray-600 body-font py-70">
 
                 <div>
                     <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
@@ -313,7 +313,7 @@ const Home = () => {
 
             </section>
 
-            <section id="a" class="text-gray-600 body-font">
+            <section id="a" class="text-gray-600 body-font py-50">
 
                 <div>
                     <div class="flex flex-wrap -m-4">
@@ -585,7 +585,7 @@ const Home = () => {
 
 
             <section class="text-gray-600 body-font">
-                <div class="container p-2  mx-auto">
+                <div class="container p-0  mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -630,12 +630,12 @@ const Home = () => {
 
 
             <section class="text-gray-600 body-font">
-                <div class="container p-4  mx-auto">
+                <div class="container p-0  mx-auto">
                     <div class="flex flex-wrap -m-4">
-                        <div class="p-0 lg:w-1/3">
+                        <div class="p-4 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-3">PLANTING REGION</h1>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class=" mx-auto leading-relaxed mb-3 text-blue-400 ">North America </p>
 
                                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -647,7 +647,7 @@ const Home = () => {
                         <div class="p-4 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-3">PLANTING REGION</h1>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class="leading-relaxed mb-3  mx-auto text-blue-400  ">North America, Latin America, Africa </p>
 
                                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -659,7 +659,7 @@ const Home = () => {
                         <div class="p-4 lg:w-1/3">
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
-                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-3">PLANTING REGION</h1>
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class="leading-relaxed mb-3 text-center text-blue-400  ">North America, Latin America, Africa </p>
 
 
@@ -674,7 +674,585 @@ const Home = () => {
             </section>
 
 
+            <section id="a" class="text-gray-600 body-font,text-align-center">
+                <span style={{ fontSize: "60px" }}>B</span>
+                <div>
+                    <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/b1.webp" alt="blog"></img>
+                                    <div class="p-5">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">BALSAM FIR</h1>
+                                        <p class="leading-relaxed mb-3 text-center">A medium-sized forest tree generally distributed in deep, cold swamps. It is cut for pulpwood, and is used as a Christmas tree. Balsam pillows are made from the needles.
+                                        </p>
+                                        <div class="flex items-center flex-wrap ">
 
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/b2.webp" alt="blog"></img>
+                                    <div class="p-5">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BALD CYPRESS</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">It is native to the southeastern United States. This cypress tree adapts to a wide range of soil types, whether wet, dry, or swampy.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/b3.webp" alt="blog"></img>
+                                    <div class="p-5">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BANANA TREE</h1>
+                                        <p class="leading-relaxed mb-3 text-center">The banana plant grows to be tall like a tree, but has no trunk: it is simply a cluster of large leaf stalks. This technically classifies it as an herb.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/b4.webp" alt="blog"></img>
+                                    <div class="p-5">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BASSWOOD</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">It has rapidity of growth and a wide range of uses for its lumber. It does best in the deep, moist soils. The wood is soft, used for boxes, crates, and cheap furniture.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-col space-y-10 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-5">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">In aromatherapy uses, Fir as an essential oil, is beneficial for coughs, colds, flu, arthritis,
+                                            and rheumatism.  </p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">The tree gets the name “bald” cypress because they drop their leaves so early in the season.
+                                        </p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center">Banana fruits are mildly
+                                            radioactive.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-5">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class=" leading-relaxed mb-3 text-center">Trees must be about 15 years old before they bear fruit.
+                                        </p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section id="a" class="text-gray-600 body-font py-70">
+
+                <div>
+                    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-4">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America  </p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-4">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-0 text-blue-400 text-center">North America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-4">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America, Latin America, Africa</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-4">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="a" class="text-gray-600 body-font py-50">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/ba1.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BIGTOOTH ASPEN</h1>
+                                    <p class="leading-relaxed mb-3 text-center"> A short-lived tree that develops best on deep moist soils, but is more common on dry, upland, sandy or stony sites, where it rapidly covers slashes and burn</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/ba2.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BIRCH TREE</h1>
+
+                                    <p class="leading-relaxed mb-3 text-center">Birch trees are characterized by their thin, papery barks. There are about 50 species native to Europe and Asia, and 15 to North America.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/ba3.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BITTERNUT HICKORY</h1>
+                                    <p class="leading-relaxed mb-3 text-center">It produces bitter inedible nuts. It grows best on low, rich soil in higher ground. It grows well even in shade, so is usually found in groups of other trees. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/ba4.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BLACK ASH</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Most commonly found in deep swamps. Occasionally, though, it's found mixed with other hardwoods in moist, cold forests.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">Native Americans used leaves of aspen in treatment of burned skin, swollen joints and headache. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">
+                                        Birch bark was used by Native Americans to build canoes, wigwams, and bowls.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Hickory nuts are excellent source of dietary fibers, mono-unsaturated fatty acids, vitamins and minerals.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class=" leading-relaxed mb-3 text-center">During the 19th century, ash trees were used in the production of carriages.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+
+
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> North Africa </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="a" class="text-gray-600 body-font,text-align-center ">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0  During the 19th century, ash trees were used in the production of carriages. " src="/image/bb1.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">BLACK WILLOW</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">The largest and most widely distributed of the native Willow Trees. It is of little importance as a timber tree as it often divides into several crooked, medium-sized trunks.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bb2.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BONSAI TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center ">A poplar tree that belongs to the willow family. here are six species of aspen that can be found in the temperate areas of the northern hemisphere. Aspen grows in sunny areas, on moist, well-drained so</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bb3.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BUTTERNUT TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">It produces attractive wood and edible nuts. It is common in moist soils, especially along fences and roads. Many butternut trees are infected with a canker disease.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section class="text-gray-600 body-font">
+                <div class="container p-2  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-green-400 mb-3">FUN FACT</h1>
+                                <p class="lg:w-1/2 mx-auto leading-relaxed mb-3"> Because the tree blooms so early, they provide important nectar for bees emerging from their hives after winter.</p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3"> FUN FACT</h1>
+                                <p class="leading-relaxed mb-3 lg:w-2/3 mx-auto "> Its name stems from the Japanese word, "盆栽", meaning 'tray planting'. It is an Asian art form of cultivation techniques to replicate large scale trees, on a smaller scale in a container.</p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3">FUN FACT</h1>
+                                <p class="leading-relaxed mb-3"> The Butternut tree (or white walnut) is the only walnut tree that is native to Canada.</p>
+
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="text-gray-600 body-font">
+                <div class="container p-4  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-0 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class=" mx-auto leading-relaxed mb-3 text-blue-400 ">North America </p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class="leading-relaxed mb-3  mx-auto text-blue-400  ">North America, Latin America, Africa </p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class="leading-relaxed mb-3 text-center text-blue-400  ">North America, Latin America, Africa </p>
+
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
         </div>
