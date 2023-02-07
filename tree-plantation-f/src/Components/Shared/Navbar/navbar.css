@@ -1,0 +1,4 @@
+.sidebar:hover > div{
+    display: block;
+    transition-duration: 0.7s;
+}
