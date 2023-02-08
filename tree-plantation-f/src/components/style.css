@@ -34,3 +34,13 @@ input[type=number] {
     overflow: hidden;
     position: relative;
 }
+.box > div{
+  display: none;
+}
+.box:hover >h1{
+  display: none !important;
+}
+.box:hover >div{
+  display:block !important;
+}
+
