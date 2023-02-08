@@ -119,35 +119,67 @@ function Business (){
                     <p className=" sm:text-xl xs:text-base">Whether it's by organizing employee events, or donating to our global planting projects, <span className=" font-bold">our business partners are making a positive impact.</span></p>
                 </div>{/**end title div */}
                 <div className="my-10 flex justify-around items-stretch flex-wrap">
-                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
-                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5501eace--treeplanting.jpg?v=1624897998" alt=""/> </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left m-0 p-0">
+                    <div className="  h-[454.75px]"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5501eace--treeplanting.jpg?v=1624897998" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">SUPPORT REFORESTATION</h1>
                     <p className=" text-base font-normal mb-3">Plant one tree for <span className=" font-bold">every product or service sold with our one-for-one model</span>, donate a percentage of sales, or formulate special giving campaigns on social media.</p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>BECOME A PARTENER</span> </button>
                   </div>
-                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
-                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/groupofemployeeattreeplantingeventinmexico-1641504949839.jpg?v=1641504977" alt=""/> </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left m-0 p-0">
+                    <div className=" h-[454.75px]"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/groupofemployeeattreeplantingeventinmexico-1641504949839.jpg?v=1641504977" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">EMPLOYEE ENGAGEMENT</h1>
                     <p className=" text-base font-normal mb-3">Our global tree planting events will help your team connect with nature, while also contributing to a <span className=" font-bold">positive environmental impact.</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>PLAN AN ACTIVITY</span> </button>
                   </div>
-                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
-                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-urban-tree-new-york-city-1660765574971.jpg?v=1660765577" alt=""/> </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left m-0 p-0">
+                    <div className=" h-[454.75px]"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-urban-tree-new-york-city-1660765574971.jpg?v=1660765577" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">URBAN REFORESTATION</h1>
                     <p className=" text-base font-normal mb-3">Support one of our urban reforestation projects by planting close to your <span className=" font-bold">headquarters</span> and improving your <span className=" font-bold">local biodiversity.</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>LEARN MORE</span> </button>
                   </div>
-                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left">
-                    <div className="h-2/4 "><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-d4609a08--milliontreechallenge.jpg?v=1628543783" alt=""/> </div>
+                  <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:px-4 text-left m-0 p-0">
+                    <div className="  h-[454.75px]"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-d4609a08--milliontreechallenge.jpg?v=1628543783" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">MILLION TREE CHALLENGE</h1>
                     <p className=" text-base font-normal mb-3">Join an exclusive community of only 100 environmentally conscious businesses who are <span className=" font-bold">planting 10,000 trees across US National Forests</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>JOIN THE CHALLENGE</span> </button>
                   </div>
                 </div>{/**end activities area */}
+
+                <div className="bgOcordion w-full">
+                  <div className=" w-10/12 m-auto">
+                    <h1 className=" text-4xl font-bold text-center">MORE PARTNERSHIP OPTIONS</h1>
+                    <p className="text-center text-xl">Looking to scale your impact even further? While planting trees will always remain the core of One Tree Planted, we're always looking for new ways to drive change in the environmental landscape. Supporting the UN's 17 Sustainable Development Goals, working towards goals with science-based targets, and offering a comprehensive carbon offset program allows businesses unique ways to align their company mission with ours.</p>
+                  </div>  
+                  <div className="flex justify-center overflow-hidden max-w-full h-80 w-10/12 m-auto flex-wrap ">
+                      <div className="box-1 flex flex-wrap justify-center items-center bg-teal-800 p-5 h-72 transition-all ease-in duration-300 flex-1 hover:flex-[4] hover:h-80 overflow-hidden">
+                        <h1 className="text-white capitalize text-xl font-semibold transition-all duration-200 ease-in">the un's sustainable <br/>development goals</h1>
+                        <div className="hidden">
+                            <h3>The UN's Sustainable Development Goals</h3>
+                            <p>The 17 UN Sustainable Development Goals (SDGs) are a plan to create a better and more sustainable future for all. Established by the United Nations, the SDGs are an urgent call to action and global partnership among all countries. They represent key benchmarks for addressing poverty, inequality, climate change, and establishing peace and justice. Reforestation and land restoration helps to benefit all 17 of the UN’s Sustainable Development Goals. Planting trees is a unique opportunity to align your company’s SDG-related targets with reforestation projects of your choosing.</p>
+                        </div>
+                      </div>
+                      <div className="box-2 flex flex-wrap justify-center items-center bg-teal-700 p-5 h-72 transition-all ease-in duration-300 flex-1 hover:flex-[4] hover:h-80 overflow-hidden">
+                        <h1 className="text-white capitalize text-xl font-semibold transition-all duration-200 ease-in">goals with <br/>science-based targets</h1>
+                        <div className="hidden">
+                            <h3>Goals with Science-Based Targets</h3>
+                            <p>Science-based targets are a set of goals unique to a business that provide it with a clear path to reduce its greenhouse gas emissions. An emissions reduction target is only deemed ‘science-based' if it is developed in line with the scale of reductions required to keep global warming below 2°C from pre-industrial levels with continued efforts to limit global warming to 1.5°C. One Tree Planted can align with your business’s science-based targets by planting trees in the area of your choosing.</p>
+                        </div>
+                      </div>
+                      <div className="box-3 flex flex-wrap justify-center items-center bg-teal-600 p-5 h-72 transition-all ease-in duration-300 flex-1 hover:flex-[4] hover:h-80 overflow-hidden">
+                        <h1 className="text-white capitalize text-xl font-semibold transition-all duration-200 ease-in">carbon offset <br/>program</h1>
+                        <div className="hidden">
+                            <h3>Carbon Offset Program</h3>
+                            <p>Nature-based Solutions projects at One Tree Planted are responsible for planting millions of trees globally, generating multiple benefits for the climate, biodiversity, and community livelihoods. Get in touch today to learn more about our $1 for 1 tree carbon estimates, carbon offsetting through existing projects, and custom nature-based solution projects for your business.</p>
+                        </div>
+                      </div>
+                      
+                    
+                  </div>
+                </div>{/**end ocordion divs */}
         </div>/**End return div */
 );
 
