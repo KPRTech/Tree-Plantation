@@ -674,7 +674,7 @@ const Home = () => {
             </section>
 
 
-            <section id="a" class="text-gray-600 body-font,text-align-center">
+            <section id="b" class="text-gray-600 body-font,text-align-center">
                 <span style={{ fontSize: "60px" }}>B</span>
                 <div>
                     <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
@@ -1196,10 +1196,10 @@ const Home = () => {
                             <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3">FUN FACT</h1>
-                                <p class="leading-relaxed mb-3"> The Butternut tree (or white walnut) is the only walnut tree that is native to Canada.</p>
+                                <p class="leading-relaxed mb-3 text-center"> The Butternut tree (or white walnut) is the only walnut tree that is native to Canada.</p>
 
 
-                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full ">
 
 
                                 </div>
@@ -1219,7 +1219,7 @@ const Home = () => {
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class=" mx-auto leading-relaxed mb-3 text-blue-400 ">North America </p>
 
-                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full ">
 
 
                                 </div>
@@ -1231,20 +1231,20 @@ const Home = () => {
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class="leading-relaxed mb-3  mx-auto text-blue-400  ">North America, Latin America, Africa </p>
 
-                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
 
 
                                 </div>
                             </div>
                         </div>
                         <div class="p-4 lg:w-1/3">
-                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative px-10">
 
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
                                 <p class="leading-relaxed mb-3 text-center text-blue-400  ">North America, Latin America, Africa </p>
 
 
-                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
 
 
                                 </div>
@@ -1253,7 +1253,498 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <section id="c" class="text-gray-600 body-font,text-align-center">
+                <span style={{ fontSize: "60px" }}>C</span>
+                <div>
+                    <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/bC1.webp" alt="blog"></img>
 
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">CACAO TREE</h1>
+                                        <p class="leading-relaxed mb-3 text-center">The cacao tree is a tropical evergreen that can grow to be up to 25 ft tall. It’s flowers are pink and white flowers, which rely on flies for pollination.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc2.webp" alt="blog"></img>
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CALIFORNIA REDWOOD</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">The California Redwood is native to California and Oregon. It belongs to the sequoia family, and can grow to be 379 feet tall.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/bc3.webp" alt="blog"></img>
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CALIFORNIA SYCAMOR</h1>
+                                        <p class="leading-relaxed mb-3 text-center">The California sycamore is large, tall tree with a fast growth rate. The tree's potentially enormous size makes it best suited for large-scale landscapes. It is used for butchers' blocks, novelties, and occasionally for furniture.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc4.webp" alt="blog"></img>
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CANADIAN HEMLOCK</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">The Canadian hemlock grows to a height of 40–70' and a spread of 25–35' at maturity. This hemlock provides excellent cover for deer and songbirds. Nesting site for several warblers. Seeds are eaten by juncos, chickadees, and siskins.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-col space-y-10 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">The tree’s seeds are used to make chocolate.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">A log of sycamore wood is priced at around 200 US dollars.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center">Sycamore tree seeds are known as "helicopters" because of their wings that rotate similar to helicopter's propeller on a wind.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class=" leading-relaxed mb-3 text-center">Very long lived, with the oldest recorded specimen, found in Tionesta, Pennsylvania, being at least 554 years old.
+                                        </p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section id="a" class="text-gray-600 body-font py-70">
+
+                <div>
+                    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> Africa </p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="c" class="text-gray-600 body-font py-50">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/bc5.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CAPE CHESTNUT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The tree can reach 20 metres high in a forest, but in cultivation it is more likely to reach 10 metres, with a spreading canopy. The large pink flowers are produced in terminal panicles and cover the tree canopy in the early summer. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc6.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CAPIRONA</h1>
+
+                                    <p class="leading-relaxed mb-3 text-center">This tree is native to the Amazon, and can grow to be 100 ft tall. Its white flowers produce seed which are spread by wind and water.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc7.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CAROLINA SILVERBEL</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The Carolina silverbell is native to the southeastern United States. It is characterized by bell-shaped white flowers which appear in spring before the leaves. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/bc8.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CHERRY BLOSSOM TREE</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Known as "sakura" in Japanese, these pale blooms stand for renewal and hope. An average Japanese Cherry Tree is around 25 feet tall, while some can grow to 50 feet tall with a 40-foot wide canopy.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="a" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">Cape chestnut oil, obtained from the seeds, is a popular oil in African skin care.
+                                    </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">This tree sheds its bark to prevent the growth of lichen or fungi.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The flowers turn into little green fruits.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class=" leading-relaxed mb-3 text-center"> Typically, they only last about 16-20 years. Certain species can live much longer. Black Cherry Trees can live up to 250 years.                                   </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="c" class="text-gray-600 body-font py-70">
+
+<div>
+    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
+        <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/4">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                    <div class="p-6">
+                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America </p>
+                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/4">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                    <div class="p-6">
+                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                        <p class="leading-relaxed mb-3 text-blue-400 text-center">Latin America</p>
+                        <div class="flex items-center flex-wrap">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/4">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                    <div class="p-6">
+
+                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 md:w-1/4">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                    <div class="p-6">
+
+                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America,Asia</p>
+                        <div class="flex items-center flex-wrap">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<section id="c" class="text-gray-600 body-font py-50">
+
+<div>
+    <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/bc9.webp" alt="blog"></img>
+                <div class="p-6">
+                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CHESTNUT OAK</h1>
+                    <p class="leading-relaxed mb-3 text-center">This tree gets its name from its chestnut-like leaves. It is found principally on dry, rocky ridges and hillsides. The wood is similar to white oak and is used generally for ties, posts, and rough construction. </p>
+                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc10.webp" alt="blog"></img>
+                <div class="p-6">
+                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COLORADO BLUE SPRUCE</h1>
+
+                    <p class="leading-relaxed mb-3 text-center">The blue spruce has blue-green coloured needles and is a coniferous tree. This tree is often sold as a Christmas Tree, which includes the trees entire root ball so it can be planted after the holidays</p>
+                    <div class="flex items-center flex-wrap">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc11.webp" alt="blog"></img>
+                <div class="p-6">
+
+                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COOJONG</h1>
+                    <p class="leading-relaxed mb-3 text-center">Native to Australia, Coojung grows as a small, dense, spreading tree with a short trunk and a weeping habit. It grows up to eight metres tall. </p>
+                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/4">
+            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/bc12.webp" alt="blog"></img>
+                <div class="p-6">
+
+                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COTTONWOOD TREE</h1>
+                    <p class="leading-relaxed mb-3 text-center">A deciduous tree that belongs to the poplar tree family. Cottonwood grows in marshes, floodplains and near the lakes and rivers. Cultivated for ornamental purposes, such as a windbreak, shade tree, source of food for animals and as a firewood.</p>
+                    <div class="flex items-center flex-wrap">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
         </div>
 
