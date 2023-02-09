@@ -168,7 +168,7 @@ const Home = () => {
 
 
 
-            This tall fir tree of the North American West is only surpassed in height by the redwood. It can grow on both moist and dry sites and covers coastal and mountain slopes from 0 to 11,000'. This tree is often used as a Christmas Tree
+
 
             <section id="a" class="text-gray-600 body-font py-50">
 
@@ -1397,14 +1397,14 @@ const Home = () => {
 
             </section>
 
-            <section id="a" class="text-gray-600 body-font">
+            <section id="c" class="text-gray-600 body-font">
 
                 <div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/4">
                             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
-                                <div class="p-6">
+                                <div class="py-0">
                                     <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
                                     <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">Cape chestnut oil, obtained from the seeds, is a popular oil in African skin care.
                                     </p>
@@ -1468,382 +1468,382 @@ const Home = () => {
             </section>
             <section id="c" class="text-gray-600 body-font py-70">
 
-<div>
-    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
-        <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div>
+                    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
-                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America </p>
-                        <div class="flex items-center flex-wrap ">
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America </p>
+                                        <div class="flex items-center flex-wrap ">
 
 
 
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center">Latin America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America,Asia</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="c" class="text-gray-600 body-font py-50">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/bc9.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CHESTNUT OAK</h1>
+                                    <p class="leading-relaxed mb-3 text-center">This tree gets its name from its chestnut-like leaves. It is found principally on dry, rocky ridges and hillsides. The wood is similar to white oak and is used generally for ties, posts, and rough construction. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc10.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COLORADO BLUE SPRUCE</h1>
+
+                                    <p class="leading-relaxed mb-3 text-center">The blue spruce has blue-green coloured needles and is a coniferous tree. This tree is often sold as a Christmas Tree, which includes the trees entire root ball so it can be planted after the holidays</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc11.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COOJONG</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Native to Australia, Coojung grows as a small, dense, spreading tree with a short trunk and a weeping habit. It grows up to eight metres tall. </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/bc12.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COTTONWOOD TREE</h1>
+                                    <p class="leading-relaxed mb-3 text-center">A deciduous tree that belongs to the poplar tree family. Cottonwood grows in marshes, floodplains and near the lakes and rivers. Cultivated for ornamental purposes, such as a windbreak, shade tree, source of food for animals and as a firewood.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="c" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-col space-y-10 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">In Shakespeare's Macbeth, one of the Wayward Sisters threatens to kill a woman's husband over a chestnut.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">In traditional medicine, an infusion of the needles is used to treat colds and settle the stomach.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class="leading-relaxed mb-3 text-center">The seeds contain as much as 25% more protein than common cereals.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                        <p class=" leading-relaxed mb-3 text-center">Fragrant oils obtained from the eastern cottonwood are used in the cosmetic industry for the manufacture of lip balms and massage oils.
+                                        </p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section id="c" class="text-gray-600 body-font py-70">
+
+                <div>
+                    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center">Asia</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="a" class="text-gray-600 body-font,text-align-center ">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/33.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CROTON MEGABCARPAS</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center ">A fast-growing tree, croton grows up to 36 meters high and reaches maturity after five to seven years. It is a drought-resistant tree that can survive in harsh climatic conditions and is not browsed by animals.</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+
+            <section class="text-gray-600 body-font">
+                <div class="container p-2  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/3">
+
+                        </div>
+                        <div class="p-0 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3"> FUN FACT</h1>
+                                <p class="leading-relaxed mb-10 lg:w-2/3 mx-auto "> Croton nut oil, has been promoted for its perceived benefits in combating climate change, greenhouse gas emissions and dependence on fossil fuels.</p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-0 lg:w-1/4">
 
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            </section>
 
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
-                        <p class="leading-relaxed mb-3 text-blue-400 text-center">Latin America</p>
-                        <div class="flex items-center flex-wrap">
 
+            <section class="text-gray-600 body-font">
+                <div class="container p-0  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="py-0 lg:w-1/3">
 
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="p-0 lg:w-1/3">
+                            <div class=" bg-gray-100  rounded-lg overflow-hidden text-center relative p-0">
 
-                    <div class="p-6">
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0 ">PLANTING REGION</h1>
+                                <p class="leading-relaxed mb-0  mx-auto text-blue-400 py-0 "> Africa </p>
 
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
-                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
-                        <div class="flex items-center flex-wrap ">
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
 
 
-
-
-
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
-                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America,Asia</p>
-                        <div class="flex items-center flex-wrap">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section>
-<section id="c" class="text-gray-600 body-font py-50">
-
-<div>
-    <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-40md:h-36w-100 object-cover object-center mx-auto border-0" src="/image/bc9.webp" alt="blog"></img>
-                <div class="p-6">
-                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CHESTNUT OAK</h1>
-                    <p class="leading-relaxed mb-3 text-center">This tree gets its name from its chestnut-like leaves. It is found principally on dry, rocky ridges and hillsides. The wood is similar to white oak and is used generally for ties, posts, and rough construction. </p>
-                    <div class="flex items-center flex-wrap ">
-
-
-
 
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc10.webp" alt="blog"></img>
-                <div class="p-6">
-                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COLORADO BLUE SPRUCE</h1>
-
-                    <p class="leading-relaxed mb-3 text-center">The blue spruce has blue-green coloured needles and is a coniferous tree. This tree is often sold as a Christmas Tree, which includes the trees entire root ball so it can be planted after the holidays</p>
-                    <div class="flex items-center flex-wrap">
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/bc11.webp" alt="blog"></img>
-                <div class="p-6">
-
-                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COOJONG</h1>
-                    <p class="leading-relaxed mb-3 text-center">Native to Australia, Coojung grows as a small, dense, spreading tree with a short trunk and a weeping habit. It grows up to eight metres tall. </p>
-                    <div class="flex items-center flex-wrap ">
-
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/4">
-            <div class=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-40 md:h-36 w-100  object-center   mx-auto border-0" src="/image/bc12.webp" alt="blog"></img>
-                <div class="p-6">
-
-                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">COTTONWOOD TREE</h1>
-                    <p class="leading-relaxed mb-3 text-center">A deciduous tree that belongs to the poplar tree family. Cottonwood grows in marshes, floodplains and near the lakes and rivers. Cultivated for ornamental purposes, such as a windbreak, shade tree, source of food for animals and as a firewood.</p>
-                    <div class="flex items-center flex-wrap">
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-
-<section id="c" class="text-gray-600 body-font">
-
-<div>
-    <div class="flex flex-col space-y-10 ...	margin-top: 2.5rem;  ">
-        <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
-                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center">In Shakespeare's Macbeth, one of the Wayward Sisters threatens to kill a woman's husband over a chestnut.</p>
-                        <div class="flex items-center flex-wrap ">
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                        <p class="leading-relaxed mb-3 text-center ">In traditional medicine, an infusion of the needles is used to treat colds and settle the stomach.</p>
-                        <div class="flex items-center flex-wrap">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-
-                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                        <p class="leading-relaxed mb-3 text-center">The seeds contain as much as 25% more protein than common cereals.</p>
-                        <div class="flex items-center flex-wrap ">
-
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-
-                        <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
-                        <p class=" leading-relaxed mb-3 text-center">Fragrant oils obtained from the eastern cottonwood are used in the cosmetic industry for the manufacture of lip balms and massage oils.
-                        </p>
-                        <div class="flex items-center flex-wrap">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section>
-
-
-
-
-
-<section id="c" class="text-gray-600 body-font py-70">
-
-<div>
-    <div class="flex flex-col space-y-8 ...	margin-top: 2.5rem;  ">
-        <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
-                        <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400">North America</p>
-                        <div class="flex items-center flex-wrap ">
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
-                        <p class="leading-relaxed mb-3 text-blue-400 text-center">Asia</p>
-                        <div class="flex items-center flex-wrap">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
-                        <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
-                        <div class="flex items-center flex-wrap ">
-
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 md:w-1/4">
-                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-
-                    <div class="p-6">
-
-                        <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
-                        <p class=" leading-relaxed mb-3 text-blue-400 text-center">North America</p>
-                        <div class="flex items-center flex-wrap">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</section>
-
-<section id="a" class="text-gray-600 body-font,text-align-center ">
-
-<div>
-    <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/3">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-               
-                 
-            </div>
-        </div>
-        <div class="p-4 md:w-1/3">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/33.webp" alt="blog"></img>
-                <div class="p-6">
-                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">CROTON MEGABCARPAS</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center ">A fast-growing tree, croton grows up to 36 meters high and reaches maturity after five to seven years. It is a drought-resistant tree that can survive in harsh climatic conditions and is not browsed by animals.</p>
-                    <div class="flex items-center flex-wrap">
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 md:w-1/3">
-            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                
-                
-            </div>
-        </div>
-
-    </div>
-</div>
-
-</section>
-
-
-
-
-
-<section class="text-gray-600 body-font">
-<div class="container p-2  mx-auto">
-    <div class="flex flex-wrap -m-4">
-        <div class="p-4 lg:w-1/3">
-           
-        </div>
-        <div class="p-0 lg:w-1/3">
-            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-
-                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3"> FUN FACT</h1>
-                <p class="leading-relaxed mb-10 lg:w-2/3 mx-auto "> Croton nut oil, has been promoted for its perceived benefits in combating climate change, greenhouse gas emissions and dependence on fossil fuels.</p>
-
-                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
-
-
-                </div>
-            </div>
-        </div>
-        <div class="p-0 lg:w-1/4">
-           
-        </div>
-    </div>
-</div>
-</section>
-
-
-<section class="text-gray-600 body-font">
-<div class="container p-0  mx-auto">
-    <div class="flex flex-wrap -m-4">
-        <div class="py-0 lg:w-1/3">
-           
-        </div>
-        <div class="p-0 lg:w-1/3">
-             <div class=" bg-gray-100  rounded-lg overflow-hidden text-center relative p-0">
-
-                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0 ">PLANTING REGION</h1>
-                <p class="leading-relaxed mb-0  mx-auto text-blue-400 py-0 "> Africa </p>
-
-                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
-
-
-                </div>
-            </div> 
-        </div>
-         
-    </div> 
-</div>
-</section>
-<section id="d" class="text-gray-600 body-font,text-align-center">
+            </section>
+            <section id="d" class="text-gray-600 body-font,text-align-center">
                 <span style={{ fontSize: "60px" }}>D</span>
                 <div>
                     <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
                         <div class="flex flex-wrap -m-4">
                             <div class="p-4 md:w-1/4">
                                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                   
-                                   
+
+
                                 </div>
                             </div>
                             <div class="p-4 md:w-1/4">
@@ -1878,8 +1878,8 @@ const Home = () => {
                             </div>
                             <div class="p-4 md:w-1/4">
                                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                   
-                                    
+
+
                                 </div>
                             </div>
                         </div>
@@ -1887,8 +1887,631 @@ const Home = () => {
                 </div>
 
             </section>
-        
 
+            <section id="d" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">As insects avoid this tree, the essential oil is used as insect repellent on the feet of horses, cattle and camels.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The thick bark of mature Douglas Fir trees, helps this tree survive forest fires with the only damage being blackened bark.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="d" class="text-gray-600 body-font">
+
+                <div>
+
+
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="e" class="text-gray-600 body-font,text-align-center">
+                <span style={{ fontSize: "60px" }}>E</span>
+                <div>
+                    <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-84 object-cover object-center mx-auto border-0 " src="/image/1.webp" alt="blog"></img>
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">EASTERN COTTONWOOD</h1>
+                                        <p class="leading-relaxed mb-3 text-center">A rapid-growing, moisture-loving species that is found locally along streams and lakes. The cottonwood has been extensively planted as an ornamental tree along streets.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/e2.webp" alt="blog"></img>
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">EASTERN HEMLOCK</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">A valuable forest tree, particularly common on northern exposures, steep mountain slopes, and borders of deep swamps. It is largely manufactured into construction lumber.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/e3.webp" alt="blog"></img>
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">EASTERN RED CEDAR</h1>
+                                        <p class="leading-relaxed mb-3 text-center">As a native evergreen, the Eastern Red Cedar is a popular Christmas Tree in Southern U.S, where it is a native speices. This species is useful for windbreaks and hedges on dry soils where little else grows</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-90 object-cover object-center mx-auto border-0" src="/image/e4.webp" alt="blog"></img>
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">EASTERN WHITE PINE</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">It grows naturally in a wide range of sites, from steep mountainsides, to hillsides and valley swamps. The tree has a wide range of uses, including interior trim, doors, boxes, and even as a Christmas Tree.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="e" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center ">FUN FACT</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text-center"> It is not easy to destroy, for, once cut down, the stump continues to sprout vigorously.
+                                    </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">During the 19th century, this tree was prized for its tannin-rich bark, which was harvested for use in the leather tanning industry.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">Migratory seed-eating birds are thought to be responsible for the scattered pockets of eastern redcedar near many lakes.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class=" leading-relaxed mb-3 text-center">No other wood in the United States has such a wide range of uses.
+
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="e" class="text-gray-600 body-font">
+
+                <div>
+
+
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/2 mx-auto leading-relaxed text-base text--400 text-center text-blue-400"> North Africa </p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center ">PLANTING REGION</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="e" class="text-gray-600 body-font,text-align-center ">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40md:h-36 w-100 object-cover object-center mx-auto border-0  During the 19th century, ash trees were used in the production of carriages. " src="/image/40.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center ">ELDERBERRY</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">The Elderberry is found mostly in the northern hemisphere, but can be found in some southern areas as well. It bears large clusters of small white flowers in the late spring, which are followed by clusters of small black, blue-black, or red berries.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/41.webp" alt="blog"></img>
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">ENGELMANN SPRUCE
+                                    </h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center ">Engelmann spruce commonly occurs with subalpine fir in areas with long, cold winters and short, cool summers. It grows best on deep, rich soils with adequate moisture. </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <img class="lg:h-47 md:h-40 w-100 object-cover object-center mx-auto border-0" src="/image/42.webp" alt="blog"></img>
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">BUTTERNUT TREE</h1>
+                                    <p class="lg:w-2/3 mx-auto leading-relaxed mb-3 text-center">It produces attractive wood and edible nuts. It is common in moist soils, especially along fences and roads. Many butternut trees are infected with a canker disease.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="text-gray-600 body-font">
+                <div class="container p-2  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-green-400 mb-3">FUN FACT</h1>
+                                <p class="lg:w-1/2 mx-auto leading-relaxed mb-3">Uncooked elderberries are poisonous to humans. </p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3"> FUN FACT</h1>
+                                <p class="leading-relaxed mb-3 lg:w-2/3 mx-auto ">Specialty items such as violins, pianos, and aircraft parts are produced from Engelmann spruce </p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-0">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/4">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-green-400 mb-3">FUN FACT</h1>
+                                <p class="leading-relaxed mb-3 text-center">It’s floriferous nature makes it useful for beekeepers and honey production</p>
+
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full ">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="text-gray-600 body-font">
+
+                <div class="container p-4  mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-0 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class=" mx-auto leading-relaxed mb-3 text-blue-400 ">North America </p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full ">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class="leading-relaxed mb-3  mx-auto text-blue-400  ">North America</p>
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative px-10">
+
+                                <h1 class="title-font sm:text-2xl text-xl font-medium text-center text-orange-300 mb-0">PLANTING REGION</h1>
+                                <p class="leading-relaxed mb-3 text-center text-blue-400  ">Australia</p>
+
+
+                                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="f" class="text-gray-600 body-font,text-align-center">
+                <span style={{ fontSize: "60px" }}>F</span>
+                <div>
+                    <div class="flex flex-col space-y-4 ... 	margin-top-2.5rem; ">
+                        <div class="flex flex-wrap -m-4">
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0" src="/image/8.webp" alt="blog"></img>
+                                    <div class="p-6">
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">FIG TREE</h1>
+                                        <p class="leading-relaxed mb-3 text-center ">There are over 750 known Ficus Tree species in the world, native all across the globe. Fig trees produce fruit year round that are important food sources for thousands of animal species.</p>
+                                        <div class="flex items-center flex-wrap">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img class="lg:h-40 md:h-36 w-100 object-cover object-center mx-auto border-0 " src="/image/43.webp" alt="blog"></img>
+                                    <div class="p-6">
+
+                                        <h1 class="title-font text-lg font-medium text-gray-500 mb-3 text-center">FLOWERING DOGWOOD</h1>
+                                        <p class="leading-relaxed mb-3 text-center">One of the most common understory hardwoods you will see in both hardwood and coniferous forests in eastern North America. This dogwood tree will grow from sea level to nearly 5,000'.</p>
+                                        <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-4 md:w-1/4">
+                                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="f" class="text-gray-600 body-font">
+
+                <div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center ">Nearly every species of fig tree is pollinated by its own distinct species of fig wasp.
+                                    </p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="p-6">
+
+                                    <h1 class="title-font text-lg font-medium text-green-500 mb-3 text-center">FUN FACT</h1>
+                                    <p class="leading-relaxed mb-3 text-center">The dogwood is the state tree of two US States - Virginia and Missouri.</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section id="f" class="text-gray-600 body-font">
+
+                <div>
+
+
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center">North America</p>
+                                    <div class="flex items-center flex-wrap">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                                <div class="py-0">
+
+                                    <h1 class="title-font text-lg font-medium text-orange-300 mb-0 text-center">PLANTING REGION</h1>
+                                    <p class="leading-relaxed mb-3 text-blue-400 text-center ">North America</p>
+                                    <div class="flex items-center flex-wrap ">
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
 
 
