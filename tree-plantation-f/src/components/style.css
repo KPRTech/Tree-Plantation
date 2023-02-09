@@ -26,13 +26,10 @@ input[type=number] {
 }
 .bgOcordion{
   background-image: url('https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-soil-1661358941511.svg?v=1661358942');
-    background-size: cover;
+  background-size: 146%;
     background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 75px;
-    padding-bottom: 80px;
+    background-position: bottom right;
     overflow: hidden;
-    position: relative;
 }
 .box > div{
   display: none;
@@ -43,4 +40,8 @@ input[type=number] {
 .box:hover >div{
   display:block !important;
 }
-
+.bgForm{
+  background-image: url("https://cdn.shopify.com/s/files/1/0326/7189/files/wild-forest-bg-rotated-tertiary.svg?v=1631918620");
+    background-position: top;
+    background-size:cover;
+}

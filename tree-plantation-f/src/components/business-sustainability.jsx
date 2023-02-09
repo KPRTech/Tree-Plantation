@@ -123,28 +123,28 @@ function Business (){
 
                 <div className="my-10 flex justify-around items-stretch flex-wrap">
                   <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:m-auto m-auto text-left mb-3">
-                    <div className="aspect-square"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5501eace--treeplanting.jpg?v=1624897998" alt=""/> </div>
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-5501eace--treeplanting.jpg?v=1624897998" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">SUPPORT REFORESTATION</h1>
                     <p className=" text-base font-normal mb-3">Plant one tree for <span className=" font-bold">every product or service sold with our one-for-one model</span>, donate a percentage of sales, or formulate special giving campaigns on social media.</p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>BECOME A PARTENER</span> </button>
                   </div>
                   <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:m-auto m-auto text-left mb-3">
-                    <div className="aspect-square"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/groupofemployeeattreeplantingeventinmexico-1641504949839.jpg?v=1641504977" alt=""/> </div>
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/groupofemployeeattreeplantingeventinmexico-1641504949839.jpg?v=1641504977" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">EMPLOYEE ENGAGEMENT</h1>
                     <p className=" text-base font-normal mb-3">Our global tree planting events will help your team connect with nature, while also contributing to a <span className=" font-bold">positive environmental impact.</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>PLAN AN ACTIVITY</span> </button>
                   </div>
                   <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:m-auto m-auto text-left mb-3">
-                    <div className="aspect-square"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-urban-tree-new-york-city-1660765574971.jpg?v=1660765577" alt=""/> </div>
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/one-tree-planted-urban-tree-new-york-city-1660765574971.jpg?v=1660765577" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">URBAN REFORESTATION</h1>
                     <p className=" text-base font-normal mb-3">Support one of our urban reforestation projects by planting close to your <span className=" font-bold">headquarters</span> and improving your <span className=" font-bold">local biodiversity.</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
                             <span>LEARN MORE</span> </button>
                   </div>
                   <div className="lg:w-1/5 md:w-2/5 sm:w-full xs:w-full md:px-0 sm:px-4 xs:m-auto m-auto text-left mb-3">
-                    <div className="aspect-square"><img className="shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-d4609a08--milliontreechallenge.jpg?v=1628543783" alt=""/> </div>
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/pf-d4609a08--milliontreechallenge.jpg?v=1628543783" alt=""/> </div>
                     <h1 className=" text-xl font-semibold my-3">MILLION TREE CHALLENGE</h1>
                     <p className=" text-base font-normal mb-3">Join an exclusive community of only 100 environmentally conscious businesses who are <span className=" font-bold">planting 10,000 trees across US National Forests</span></p>
                     <button className=" w-56 rounded hover:text-white font-bold text-teal-600 border-2 border-teal-600 hover:bg-teal-600 py-1 px-2 bg-white transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
@@ -152,12 +152,61 @@ function Business (){
                   </div>
                 </div>{/**end activities area */}
 
-                <div className="bgOcordion w-full">
-                  <div className=" w-10/12 m-auto">
-                    <h1 className=" text-4xl font-bold text-center">MORE PARTNERSHIP OPTIONS</h1>
+                <div></div>{/**end animated background */}
+
+                <div className="flex flex-col items-center pt-20 mb-10">
+                  <h1 className="  sm:text-2xl xs:text-2xl md:text-4xl font-bold mb-4">HOW BUSINESSES ARE GIVING BACK</h1>
+                  <p className=" xs:text-base sm:text-base md:text-xl">Check out how our awesome partners are making an impact in their communities and around the world.</p>
+                  <p className=" xs:text-base sm:text-base md:text-xl font-bold mb-4">We can tailor our offerings to fit your business's needs, no matter what they may be.</p>
+                  <button className=" w-72 rounded text-white font-bold bg-slate-900 py-1 px-2 ml-4 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                        <span className=" capitalize">download case studies</span> </button>
+                </div>{/**case study area */}
+
+                <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-x-14 gap-y-3 justify-center w-11/12 m-auto pb-10">
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/frame-55-1660931777857.jpg?v=1660931780" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">TOBLERONE</h1>
+                    <p className=" text-base font-normal mb-3">As part of a point of sale campaign, Toblerone planted one tree for every product sold to support reforestation. Toblerone also lets their customers plant additional trees through a custom fundraising microsite.</p>
+                    <p>The initiative helped to plant over 95,000 trees in the Andes Mountains of South America.</p>
+                  </div>
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/treesaplings-1644611819147.jpg?v=1644611877" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">AMAZON ALEXA</h1>
+                    <p className=" text-base font-normal mb-3">Amazon teamed up with One Tree Planted to enable U.S. customers to plant trees through their Alexa Device. By saying “Alexa, grow a tree” users can make hands free donations for reforestation.</p>
+                    <p>In addition to this campaign, Amazon Alexa also donated one million trees to support global reforestation.</p>
+                  </div>
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hendricks-gin-1660930110062.jpg?v=1660930113" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">HENDRICK'S GIN</h1>
+                    <p className=" text-base font-normal mb-3">Hendricks released their limited edition Amazonia Gin, inspired by the bright, tropical flavors of the Amazon. Every bottle purchased contributes towards planting trees in the Amazon.</p>
+                    <p>The initiative has helped to plant over 200,000 trees in the rainforests of South America.</p>
+                  </div>
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/frame-52-1660931552263.jpg?v=1660931555" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">VOLVO</h1>
+                    <p className=" text-base font-normal mb-3">As part of their #RechargeThursday initiative, Volvo encouraged people to test drive their plug-in hybrid or electric vehicles on Thursdays at participating dealerships. Every test drive planted 5 trees through One Tree Planted.</p>
+                    <p>The initiative has resulted in several hundred test drives and thousands of trees planted across Canada.</p>
+                  </div>
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/coffeesustainability2_ed1ba339a71f45058c228982d93a69c9prv-1660930185287.jpeg?v=1660930187" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">DUNKIN'</h1>
+                    <p className=" text-base font-normal mb-3">To celebrate the release of their limited batch 100% Guatemalan coffee, Dunkin’ supported agroforestry projects in Guatemala by donating 10 cents of every cup sold to One Tree Planted.</p>
+                    <p>The initiative resulted in the planting of 250,000 trees in agroforestry projects in Guatemala.</p>
+                  </div>
+                  <div className="text-left mb-3">
+                    <div className="aspect-square"><img className=" rounded shadow-md	shadow-slate-300 h-full w-full max-w-full" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hsbccasestudy-1669741041829.jpg?v=1669741043" alt=""/> </div>
+                    <h1 className=" text-xl font-semibold my-3 text-teal-600	">HSBC</h1>
+                    <p className=" text-base font-normal mb-3">HSBC partnered with One Tree Planted to launch a variety of campaigns, ranging from a ‘reforestation donation’ credit card reward program to incentivizing employees worldwide to complete sustainable banking programs.</p>
+                    <p>By the end of 2022, HSBC donations have planted 300,000 trees across the world with many more still to come.</p>
+                  </div>
+                </div>{/**volunteer area */}
+                
+                <div className="bgOcordion w-full  border-t border-slate-300 pt-20">
+                  <div className=" w-10/12 m-auto mb-8">
+                    <h1 className=" text-4xl font-bold text-center mb-8">MORE PARTNERSHIP OPTIONS</h1>
                     <p className="text-center text-xl">Looking to scale your impact even further? While planting trees will always remain the core of One Tree Planted, we're always looking for new ways to drive change in the environmental landscape. Supporting the UN's 17 Sustainable Development Goals, working towards goals with science-based targets, and offering a comprehensive carbon offset program allows businesses unique ways to align their company mission with ours.</p>
                   </div>  
-                  <div className="flex justify-center overflow-hidden max-w-full h-80 w-10/12 m-auto flex-wrap  ">
+                  <div className="flex md:flex-col justify-center overflow-hidden max-w-full h-80 w-10/12 m-auto flex-wrap  ">
                       <div className="box flex flex-wrap justify-center items-center bg-teal-800 p-5 h-72 transition-all ease-in duration-300 flex-1 hover:flex-[4] hover:h-80 overflow-hidden shadow-md shadow-slate-400">
                         <h1 className="text-white capitalize text-xl font-semibold transition-all duration-300 ease-in block hover:hidden">the un's sustainable <br/>development goals</h1>
                       
@@ -183,8 +232,18 @@ function Business (){
                         </div>
                       </div>
                   </div>
+                  
                 </div>{/**end ocordion divs */}
                 
+                <div className=" bg-slate-100">
+                  <div className="bgForm">
+                    <div>
+                      <p>hello</p>
+                    </div>
+                
+                  </div>
+                </div>{/**end get started form */}
+
         </div>/**End return div */
 );
 
