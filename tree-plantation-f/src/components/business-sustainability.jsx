@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import TreeElement from "./assets/treeEle";
 function Business (){
     var settings = {
         dots: false,
@@ -152,7 +153,9 @@ function Business (){
                   </div>
                 </div>{/**end activities area */}
 
-                <div></div>{/**end animated background */}
+                <div className=" overflow-hidden h-[400px]">
+                  <div id="parallex"> </div>  
+                </div>{/**end animated background */}
 
                 <div className="flex flex-col items-center pt-20 mb-10">
                   <h1 className="  sm:text-2xl xs:text-2xl md:text-4xl font-bold mb-4">HOW BUSINESSES ARE GIVING BACK</h1>
@@ -206,7 +209,7 @@ function Business (){
                     <h1 className=" text-4xl font-bold text-center mb-8">MORE PARTNERSHIP OPTIONS</h1>
                     <p className="text-center text-xl">Looking to scale your impact even further? While planting trees will always remain the core of One Tree Planted, we're always looking for new ways to drive change in the environmental landscape. Supporting the UN's 17 Sustainable Development Goals, working towards goals with science-based targets, and offering a comprehensive carbon offset program allows businesses unique ways to align their company mission with ours.</p>
                   </div>  
-                  <div className="flex md:flex-col justify-center overflow-hidden max-w-full h-80 w-10/12 m-auto flex-wrap  ">
+                  <div className="flex lg:flex-row md:flex-row xl:flex-row sm:flex-col xs:flex-col justify-center overflow-hidden max-w-full h-80 w-10/12 m-auto flex-wrap  ">
                       <div className="box flex flex-wrap justify-center items-center bg-teal-800 p-5 h-72 transition-all ease-in duration-300 flex-1 hover:flex-[4] hover:h-80 overflow-hidden shadow-md shadow-slate-400">
                         <h1 className="text-white capitalize text-xl font-semibold transition-all duration-300 ease-in block hover:hidden">the un's sustainable <br/>development goals</h1>
                       
@@ -235,10 +238,75 @@ function Business (){
                   
                 </div>{/**end ocordion divs */}
                 
-                <div className=" bg-slate-100">
+                <div className=" bg-slate-100 pt-20 pb-24">
                   <div className="bgForm">
                     <div>
-                      <p>hello</p>
+                      <h1 className="md:text-4xl sm:text-2xl xs:text-2xl font-bold tracking-wider mb-4">GET STARTED TODAY</h1>
+                      <p className=" md:text-xl sm:text-base xs:text-base font-bold">Fill out the form and let us know how you want to get involved!</p>
+                      <p className=" md:text-xl sm:text-base xs:text-base mb-10">You can also reach out to us directly by calling now or setting up a zoom call.</p>
+                    </div>
+                    <div className="flex lg:flex-row md:flex-row xl:flex-row sm:flex-col xs:flex-col justify-around items-start">
+                      
+                      <form className="grid grid-cols-2 gap-x-2 gap-y-3 justify-items-start text-left xl:w-5/12 lg:w-5/12 md:w-full sm:w-full xs:w-full m-auto">
+                        <div className="w-full">
+                          <label className="block font-bold">First Name</label>
+                          <input className="w-full" type="text" value="" placeholder="Type your first name"/>
+                        </div>
+                        
+                        <div className="w-full">
+                        <label className="block font-bold">Last Name</label>
+                          <input className="w-full" type="text" value="" placeholder="Type your last name"/>
+                        </div>
+
+                        <div className="w-full">
+                          <label className="block font-bold">Email</label>
+                          <input className="w-full" type="text" value="" placeholder="Enter your email"/>
+                        </div>
+
+                        <div className="w-full">
+                          <label className="block font-bold">Company Name</label>
+                          <input className="w-full" type="text" value="" placeholder="Type your company name"/>
+                        </div>
+
+                        <div className="w-full">
+                          <label className="block font-bold">Company Website</label>
+                          <input className="w-full" type="text" value="" placeholder="Type your company URL"/>
+                        </div>
+
+                        <div className="w-full">
+                          <label className="block font-bold">Phone Number</label>
+                          <input className="w-full" type="text" value="" placeholder="Phone Number"/>
+                        </div>
+
+                        <div className=" col-span-2 w-full">
+                          <label className="block font-bold">Message</label>
+                          <input className="w-full" type="text" value="" placeholder="Type your message here"/>
+                        </div>
+
+                        <div className=" col-span-2 w-full flex items-center justify-start my-3">
+                          <input type="checkbox" value=""/>
+                          <label className="w-full ml-2">I would like to receive monthly updates on projects and exclusive opportunities available to business partners!</label>
+                        </div>
+                        <button className=" w-full col-span-2 rounded text-white font-bold bg-red-600 py-1 px-2 hover:bg-red-500 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12" role={SubmitEvent}>
+                            <span>SUBMIT</span> </button>
+                      </form>
+                      
+                      <div className="text-left xl:w-5/12 lg:w-5/12 md:w-full sm:w-full xs:w-full m-auto sm:ml-3 xs:ml-3">
+                        <h3 className=" font-semibold text-xl mt-5 mb-2">AS A BUSINESS PARTNER, YOU WILL GET ACCESS TO:</h3>
+                        <ul className="list-outside border-b border-slate-300 pb-2">
+                          <li className=" mb-2 text-base"> <TreeElement class=" inline text-[#417f45] mr-2"/> <span>Incredible sustainability stories for your business</span></li>
+                          <li className=" mb-2 text-base"> <TreeElement class=" inline text-[#417f45] mr-2"/> <span>A dedicated account manager to help you accomplish your goals</span></li>
+                          <li className=" mb-2 text-base"> <TreeElement class=" inline text-[#417f45] mr-2"/> <span>Access to a library of amazing photos, videos, and marketing assets</span></li>
+                          <li className=" mb-2 text-base"> <TreeElement class=" inline text-[#417f45] mr-2"/> <span>Regular updates on all the projects you are supporting</span></li>
+                          <li className=" mb-2 text-base"> <TreeElement class=" inline text-[#417f45] mr-2"/> <span>Visibility on our website and social media (after a donation milestone)</span></li>
+                        </ul>
+                        <div className="flex justify-start items-center pt-4">
+                          <button className=" w-48 rounded text-white font-bold bg-emerald-800 py-1 px-2 mr-4 hover:bg-emerald-700 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                          <span>SET UP A ZOOM CALL</span> </button>
+                          <p className="ml-4 text-xl font-semibold tracking-wider">1.800.408.7850</p>
+                        </div>
+
+                      </div>
                     </div>
                 
                   </div>
