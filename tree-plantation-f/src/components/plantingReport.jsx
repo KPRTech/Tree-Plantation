@@ -2,7 +2,23 @@ import React, { useEffect, useState} from "react";
 import SocialIcons from "./assets/socialIcons";
  function PlantingReport(){
 
-    const [trees , setTrees] = useState(1005600);
+    const [scrollTop, setScrollTop] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = event => {
+      setScrollTop(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  const [trees , setTrees] = useState(1005600);
+  const [hectares , setHectares] = useState(60000);
+  const [projs , setProjs] = useState(9);
+  const [countries , setCountries] = useState(2);
+  const [regions , setRegions] = useState(0);
+    
     useEffect (()=>{ 
         const treesInterval = setInterval(()=>(trees<52793657?setTrees(trees + 1007800):null), 50);
         return () => {
@@ -10,38 +26,40 @@ import SocialIcons from "./assets/socialIcons";
         };
     });
 
-    const [hectares , setHectares] = useState(60000);
-    useEffect (()=>{ 
-        const hectaresInterval = setInterval(()=>(hectares<97769?setHectares(hectares + 1050):null), 50);
-        return () => {
-            clearInterval(hectaresInterval);
-        };
-    });
+   useEffect (()=>{ 
+    const hectaresInterval = setInterval(()=>(hectares<97769?setHectares(hectares + 1050):null), 50);
+    return () => {
+        clearInterval(hectaresInterval);
+    };
+});
 
-    const [projs , setProjs] = useState(9);
-    useEffect (()=>{ 
-        const projInterval = setInterval(()=>(projs<327?setProjs(projs + 8):null),50);
-        return () => {
-            clearInterval(projInterval);
-        };
-    });
 
-    const [countries , setCountries] = useState(2);
-    useEffect (()=>{ 
-        const countriesInterval = setInterval(()=>(countries<74?setCountries(countries + 1):null), 50);
-        return () => {
-            clearInterval(countriesInterval);
-        };
-    });
+useEffect (()=>{ 
+    const projInterval = setInterval(()=>(projs<327?setProjs(projs + 8):null),50);
+    return () => {
+        clearInterval(projInterval);
+    };
+});
 
-    const [regions , setRegions] = useState(0);
-    useEffect (()=>{ 
-        const regionsInterval = setInterval(()=>(regions<6?setRegions(regions + 1):null), 50);
-        return () => {
-            clearInterval(regionsInterval);
-        };
-    });
 
+useEffect (()=>{ 
+    const countriesInterval = setInterval(()=>(countries<74?setCountries(countries + 1):null), 50);
+    return () => {
+        clearInterval(countriesInterval);
+    };
+});
+
+
+useEffect (()=>{ 
+    const regionsInterval = setInterval(()=>(regions<6?setRegions(regions + 1):null), 50);
+    return () => {
+        clearInterval(regionsInterval);
+    };
+    
+});
+
+    
+    
     
 
     return(
@@ -64,33 +82,34 @@ import SocialIcons from "./assets/socialIcons";
                 <p className=" text-base mb-4">One Tree Planted made an incredible impact for the environment and local communities in 2022, all thanks to you! We expanded into new regions, forged strategic partnerships, grew our team of forestry experts, and planted more trees than ever before. </p>
                 <p className=" text-base">Thanks to our amazing donors, we planted <span className=" font-bold">52,793,657</span> trees in <span className=" font-bold">2022</span>, with over <span className=" font-bold">44 million</span> already committed to be planted in 2023!</p>
             </div>{/**our impact */}
-            <div className=" bg-slate-400 pb-8 backImg3 bg-cover ">  
+            <div className=" bg-slate-400 pb-8 backImg3 bg-cover">
+                <div>{scrollTop}</div>  
             <div className="w-10/12 m-auto"> 
-                <div className=" flex justify-center pt-16">
-                    <div className=" pr-20">
+                <div className=" flex justify-center md:flex-row sm:flex-col xs:flex-col pt-16">
+                    <div className=" md:pr-20 sm:pr-0 xs:pr-0 mb-3">
                         <img className=" w-32 h-32 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/files/trees-white_3db850cb-9729-439d-8067-42a886367891.svg?v=1642440296" alt=""/>
                         <p id="treesPlanted" className=" text-4xl text-[#f9c316] font-bold">{trees}</p>
                         <p className=" text-xl text-white">TREES PLANTED</p>
                     </div>
-                    <div className=" pl-28">
+                    <div className=" md:pl-28 sm:pl-0 xs:pl-0 mb-3">
                         <img className=" w-32 h-32 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/files/hectares-white_9a36a75c-54d3-4835-a5fc-bcd516d0d135.svg?v=1642440401" alt=""/>
                         <p id="hectares" className=" text-4xl text-[#f9c316] font-bold">{hectares}</p>
                         <p className=" text-xl text-white">HECTARES RESTORED</p>
                     </div>
                 </div>
 
-                <div className=" flex justify-center mt-5">
-                    <div className=" mr-32">
+                <div className=" flex justify-center mt-5 md:flex-row sm:flex-col xs:flex-col">
+                    <div className=" md:mr-32 sm:mr-0 xs:mr-0 mb-3">
                         <img className=" w-24 h-24 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/files/projects-white.svg?v=1642195877" alt=""/>
                         <p id="projects" className=" text-4xl text-[#f9c316] font-bold">{projs}</p>
                         <p className=" text-xl text-white">PROJECTS</p>
                     </div>
-                    <div className=" mr-32">
+                    <div className=" md:mr-32 sm:mr-0 xs:mr-0 mb-3">
                         <img className=" w-24 h-24 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/files/countries-white.svg?v=1642195877" alt=""/>
                         <p id="countries" className=" text-4xl text-[#f9c316] font-bold">{countries}</p>
                         <p className=" text-xl text-white">COUNTRIES</p>
                     </div>
-                    <div >
+                    <div className=" mb-3">
                         <img className=" w-24 h-24 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/files/regions-white.svg?v=1642195877" alt=""/>
                         <p id="regions" className=" text-4xl text-[#f9c316] font-bold">{regions}</p>
                         <p className=" text-xl text-white">REGIONS</p>
@@ -102,14 +121,21 @@ import SocialIcons from "./assets/socialIcons";
                 </div>
             </div>{/**Statistic area */}
             <div>
-                <div className=" text-center w-10/12 py-12 m-auto">
-                    <p>This year was one of growth and resilience in the face of challenging social, political, economic and environmental forces. Through it all, One Tree Planted persevered and focused on what we do best: planting trees.</p>
-                    <p>As an action-driven organization, we like to celebrate positive accomplishments and inspire our collective motivation.</p>
-                    <p>That's why we are proud to have participated in the COP27 Climate Summit and the COP15 Biodiversity Conference, hosted our inaugural ForestFest Conference, secured an additional 20 million in restoration funding from the Bezos Earth Fund, and more than doubled the amount of trees we were able to get in the ground.</p>
-                    <p>Planting trees is just one piece within the larger mosaic of action needed, but from restoring old-growth forests to empowering rural smallholder farmers with life-changing sustainable agroforestry trees, we have seen the incredible things that we can accomplish when we are working together towards a shared cause. </p>
+                <div className=" text-center w-11/12 pt-16 pb-20 m-auto text-base">
+                    <p className=" mb-4">This year was one of growth and resilience in the face of challenging social, political, economic and environmental forces. Through it all, One Tree Planted persevered and focused on what we do best: <span className=" font-bold">planting trees.</span></p>
+                    <p className=" mb-4">As an action-driven organization, we like to celebrate positive accomplishments and inspire our collective motivation.</p>
+                    <p className=" mb-4">That's why we are proud to have participated in the <span className=" font-bold">COP27 Climate Summit</span> and the <span className=" font-bold">COP15 Biodiversity Conference</span>, hosted our inaugural <span className=" font-bold">ForestFest Conference</span>, secured an additional <span className=" font-bold">20 million in restoration funding</span> from the <span className=" font-bold">Bezos Earth Fund</span>, and more than doubled the amount of trees we were able to get in the ground.</p>
+                    <p className=" mb-4">Planting trees is just one piece within the larger mosaic of action needed, but from <span className=" font-bold">restoring old-growth forests</span> to empowering rural smallholder farmers with <span className=" font-bold">life-changing sustainable agroforestry trees</span>, we have seen the incredible things that we can accomplish when we are working together towards a shared cause. </p>
                 </div>
             </div>{/*end in between paragraph */}
-
+            <div className="bgForm pt-16 pb-20">
+                <div className="w-11/12 m-auto">
+                    <div className=" mb-10"><p className=" capitalize text-center md:text-4xl sm:text-2xl xs:text-2xl font-bold">PLANTING 52 MILLION TREES</p></div>
+                    <div>
+                        <iframe className="w-11/12 m-auto aspect-video" src="https://www.youtube.com/embed/3ZRWJka6-1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>{/**end video area */}
             </div>/**end return div */
 
 
