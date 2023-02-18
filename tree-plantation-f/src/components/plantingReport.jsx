@@ -128,14 +128,50 @@ useEffect (()=>{
                     <p className=" mb-4">Planting trees is just one piece within the larger mosaic of action needed, but from <span className=" font-bold">restoring old-growth forests</span> to empowering rural smallholder farmers with <span className=" font-bold">life-changing sustainable agroforestry trees</span>, we have seen the incredible things that we can accomplish when we are working together towards a shared cause. </p>
                 </div>
             </div>{/*end in between paragraph */}
-            <div className="bgForm pt-16 pb-20">
+            <div className="bgForm md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10 bg-slate-100">
                 <div className="w-11/12 m-auto">
-                    <div className=" mb-10"><p className=" capitalize text-center md:text-4xl sm:text-2xl xs:text-2xl font-bold">PLANTING 52 MILLION TREES</p></div>
-                    <div>
-                        <iframe className="w-11/12 m-auto aspect-video" src="https://www.youtube.com/embed/3ZRWJka6-1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className=" md:mb-10 sm:mb-5 xs:mb-5"><p className=" capitalize text-center md:text-4xl sm:text-2xl xs:text-2xl font-bold">PLANTING 52 MILLION TREES</p></div>
+                    <div className="">
+                        <iframe className="w-11/12 m-auto aspect-video drop-shadow-xl" src="https://www.youtube.com/embed/3ZRWJka6-1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>{/**end video area */}
+            <div className="w-full">
+                <div className="w-11/12 m-auto md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10 text-center">
+                    <h1 className=" md:text-4xl sm:text-2xl xs:text-2xl font-bold md:mb-10 sm:mb-5 xs:mb-5 ">A YEAR IN REVIEW</h1>
+                    <p className=" text-base">Before One Tree Planted has even reached a decade of planting, we have been able to get more than <span className=" font-bold">91,543,657 trees</span> in the ground! <span className=" font-bold">This year alone, 52,793,657 trees were planted through 327 projects in 74 countries around the world.</span></p>
+                    <p className=" text-base md:mt-4 sm:mt-2 xs:mt-2">But as we often say, reforestation is about more than planting trees. It’s about growing healthy forests, and communities. From supporting over  <span className=" font-bold">50,582 farming families to employing/involving over 26,254 women</span>, we are so proud of the lasting social and economic impact that we’ve made, together.</p>
+                    <p className=" text-base md:mt-4 sm:mt-2 xs:mt-2">As the proverb goes, it takes a village. And we couldn’t have done any of this without our incredible global village of supporters, volunteers, partners and tree ambassadors. You inspire us every day with your unwavering dedication to protecting the environment, one tree at a time.</p>
+                </div>
+            </div>{/**year in review */}
+            <div>
+                <embed width="200" height="200" data="https://issuu.com/onetreeplanted/docs/one_tree_planted_2022_annual_report_ee456a89706f73" alt="done"></embed>
+            </div>{/**end magazine area */}
+           <div className="w-full bg-gray-100 md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10">
+                <div><h1 className="md:text-4xl sm:text-2xl xs:text-2xl font-bold md:mb-10 sm:mb-5 xs:mb-5 ">CONTINUED COLLABORATION</h1></div>
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-2 justify-center">
+                    <div className=" mb-4">
+                        <img className="lg:w-full md:w-full sm:w-2/4 xs:w-2/4 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/_0001_wri_logo_4c-1673648397517.png?v=1673648403" alt="" />
+                        <p className=" text-center capitalize font-bold text-xl md:mt-5 sm:mt-2 xs:mt-2 md:mb-3 sm:mb-2 xs:mb-2">WRI</p>
+                        <p className=" text-center">Our partnership with WRI continues to grow. This year, we were honored to collaborate with them on the implementation of TerraFund for AFR100 Phase 1, allowing us to design and manage a first-of-its-kind continent-wide restoration program!</p>
+                    </div>
+                    <div className=" mb-4">
+                        <img className="lg:w-full md:w-full sm:w-2/4 xs:w-2/4 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/_0000_bezosearthfund-1673648397515.png?v=1673648399" alt="" />
+                        <p className=" text-center capitalize font-bold text-xl md:mt-5 sm:mt-2 xs:mt-2 md:mb-3 sm:mb-2 xs:mb-2">BEZOS EARTH FUND</p>
+                        <p className=" text-center">Thanks to generous support from Bezos Earth Fund, we, together with WRI, secured an additional $20M to supporta second phase of TerraFund for AFR100. Bezos Earth Fund's trust in One Tree Planted allows us to play a leading role in unlocking the full restoration potential in Africa.</p>
+                    </div>
+                    <div className=" mb-4">
+                        <img className="lg:w-full md:w-full sm:w-2/4 xs:w-2/4 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/nfwflogo-1673992430078.png?v=1673992431" alt="" />
+                        <p className=" text-center capitalize font-bold text-xl md:mt-5 sm:mt-2 xs:mt-2 md:mb-3 sm:mb-2 xs:mb-2">NFWF</p>
+                        <p className=" text-center">Thanks to our partnership with the National Fish and Wildlife Foundation, we're planting 4.1 million trees through 15 projects in 9 Southeast US states over the next 3 years to restore historic Longleaf Pine ecosystems. We're excited to see where this partnership grows!</p>
+                    </div>
+                    <div className=" mb-4">
+                        <img className="lg:w-full md:w-full sm:w-2/4 xs:w-2/4 m-auto" src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/planet-women-logo-1673992471758.png?v=1673992473" alt="" />
+                        <p className=" text-center capitalize font-bold text-xl md:mt-5 sm:mt-2 xs:mt-2 md:mb-3 sm:mb-2 xs:mb-2">PLANET WOMEN</p>
+                        <p className=" text-center">From co-hosting a webinar on International Women'sDay to enriching our Terrafund for AFR100 projects with a powerful fellowship program, working together with Planet Women allows us to provide opportunities for women, and promote gender equality — which so often goes hand in hand with restoration work.</p>
+                    </div>
+                </div>
+           </div>
             </div>/**end return div */
 
 
