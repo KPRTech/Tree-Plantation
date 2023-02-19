@@ -63,3 +63,16 @@ input[type=number] {
 .backImg3{
   background-image: url("https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/forest3-1673636364913.jpg?v=1673636367");
 }
+.backImg4{
+  background-image: url("https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/texas-forest-1673634432400.jpg?v=1673634434");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative !important;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}

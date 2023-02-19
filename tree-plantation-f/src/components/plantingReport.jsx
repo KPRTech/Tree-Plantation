@@ -1,5 +1,36 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import SocialIcons from "./assets/socialIcons";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./assets/sliderStyle.css";
+
+/**for Next/Prev Buttons in slider */
+/*
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#ffffff", color:"#e2e8f0" , fontSize:"30px" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#ffffff", color:"#e2e8f0" , fontSize:"30px" }}
+        onClick={onClick}
+      />
+    );
+  }
+*/
+
+
  function PlantingReport(){
 
     const [scrollTop, setScrollTop] = useState(0);
@@ -58,7 +89,16 @@ useEffect (()=>{
     
 });
 
-    
+//for slider
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };  
     
     
 
@@ -120,8 +160,8 @@ useEffect (()=>{
                 </div>
                 </div>
             </div>{/**Statistic area */}
-            <div>
-                <div className=" text-center w-11/12 pt-16 pb-20 m-auto text-base">
+            <div className="w-full md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10">
+                <div className=" text-center w-11/12 m-auto text-base">
                     <p className=" mb-4">This year was one of growth and resilience in the face of challenging social, political, economic and environmental forces. Through it all, One Tree Planted persevered and focused on what we do best: <span className=" font-bold">planting trees.</span></p>
                     <p className=" mb-4">As an action-driven organization, we like to celebrate positive accomplishments and inspire our collective motivation.</p>
                     <p className=" mb-4">That's why we are proud to have participated in the <span className=" font-bold">COP27 Climate Summit</span> and the <span className=" font-bold">COP15 Biodiversity Conference</span>, hosted our inaugural <span className=" font-bold">ForestFest Conference</span>, secured an additional <span className=" font-bold">20 million in restoration funding</span> from the <span className=" font-bold">Bezos Earth Fund</span>, and more than doubled the amount of trees we were able to get in the ground.</p>
@@ -171,8 +211,42 @@ useEffect (()=>{
                         <p className=" text-center">From co-hosting a webinar on International Women'sDay to enriching our Terrafund for AFR100 projects with a powerful fellowship program, working together with Planet Women allows us to provide opportunities for women, and promote gender equality — which so often goes hand in hand with restoration work.</p>
                     </div>
                 </div>
-           </div>
-            </div>/**end return div */
+           </div>{/**end CONTINUED COLLABORATION  */}
+           <div className="w-full md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10">
+                <div className="w-11/12 m-auto">
+                    <h1 className="text-center font-bold md:text-4xl sm:text-2xl xs:text-2xl capitalize mb-10">OUR PHOTOS FROM 2022</h1>
+                    <div className="mx-3">
+                        <Slider {...settings}>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022-india-woman-planting-1673635785756.jpg?v=1673635788" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022plantingprojectsvolunteers-1673624978388.jpg?v=1673624980" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/ecovenao2022-1673625233448.jpg?v=1673625235" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022_cws_wildcarbon_2022indiaprotecttigerhabitat-1673278061802.jpg?v=1673278063" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/maninplantnursery-1673625622467.jpg?v=1673625624" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/hondovallesubwatershedarea_dominicanrepublic_plantwithpurpose-1673625866731.jpg?v=1673625868" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022reforestationvolunteeerlouis-1673626140409.jpg?v=1673626142" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022reforestationjungle-1673627086423.jpg?v=1673627088" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022reforestationplantingtreesvolunteers-1673627282033.jpg?v=1673627283" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022naturelakereforestation-1673627902847.jpg?v=1673627905" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022plantingprojectsvolunteersgroupphoto-1673628309889.jpg?v=1673628312" alt=""/></div>
+                            <div><img src="https://cdn.shopify.com/s/files/1/0326/7189/t/65/assets/2022onetreeplanted_rhinotracking_peterndungu-1673628463475.jpg?v=1673628467" alt=""/></div>
+                        </Slider>
+                    </div>
+                    <div className=" mt-12">
+                        <button className=" uppercase w-72 rounded text-white font-bold bg-red-600 py-1 px-2 ml-4 hover:bg-red-500 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                            <span>view more photos from 2022</span> </button>
+                    </div>
+                </div>
+           </div>{/**end slider */}
+           <div className="backImg4 w-full md:pt-16 sm:pt-8 xs:pt-8 md:pb-20 sm:pb-10 xs:pb-10">
+                <div className="w-11/12 m-auto text-center flex flex-col items-center justify-center">
+                    <h1 className=" md:text-[56px] sm:text-4xl xs:text-4xl text-white font-bold mb-2">READY TO MAKE A</h1>
+                    <h1 className=" md:text-[56px] sm:text-4xl xs:text-4xl text-white font-bold mb-5">GREATER IMPACT IN 2023?</h1>
+                    <button className=" uppercase w-40 rounded text-white font-bold bg-red-600 py-1 px-2 ml-4 hover:bg-red-500 transition-all duration-300	ease-in text-sm hover:text-base max-h-16 h-12">
+                    <span>plant a tree</span> </button>
+
+                </div>
+            </div>
+        </div>/**end return div */
 
 
     );
