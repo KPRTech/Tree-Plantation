@@ -7,3 +7,12 @@
     min-height: 70vh;
     border-width:10px;
 }
+.bg1{
+    background-image:url("../image/images2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding-top:4rem;
+    min-height: 3svh;
+    border-width:5px;
+}
