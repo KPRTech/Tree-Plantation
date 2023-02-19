@@ -38,9 +38,9 @@ function Navbar(){
               <a href="" className="px-2 hover:text-cyan-600">
                 <FaYoutube />
               </a>
-              <a href="" className="px-2 hover:text-cyan-600 text-sm">1-800-408-7850</a>
-              <a href="" className="px-2 hover:text-cyan-600 text-sm">contact us</a>
-              <a href="" className="px-2 hover:text-cyan-600 text-sm">newsletter</a>
+              <a href="" className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">1-800-408-7850</a>
+              <a href="" className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">contact us</a>
+              <a href="" className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">newsletter</a>
             </div>
             
             <div class="flex items-center">

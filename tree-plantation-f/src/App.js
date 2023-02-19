@@ -1,8 +1,8 @@
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import LatinAmerica from './Components/Where WE Plant/Pages/LatinAmerica';
 import Navbar from './Components/Shared/Navbar';
 import NavbarTwo from './Components/Shared/NavbarTwo';
-import FullPage from './Components/Where WE Plant/FullPage';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <NavbarTwo />
-      <FullPage />
+      <LatinAmerica />
       
       {/* <BrowserRouter>
       <Routes>

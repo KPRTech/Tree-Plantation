@@ -1,9 +1,9 @@
 import React from "react";
 
 
-function BigCard(props){
+function SmallCard(props){
     return(
-        <div className="p-3 md:w-1/3 w-1/2">
+        <div className="p-3 md:w-1/4 w-1/2">
             <div className="image relative w-full h-auto ">
                 <img className="image-img block w-full" src={props.image} alt="abc" />
                 <div className="img-overlay absolute w-full h-full bg-black bg-opacity-60 top-0 left-0 flex flex-col items-center justify-center opacity-0 transition-opacity duration-500 hover:opacity-100 group">
@@ -14,4 +14,4 @@ function BigCard(props){
     );
 }
 
-export default BigCard; 
+export default SmallCard; 
