@@ -26,3 +26,13 @@
     min-height: 100vh;
     border-width:60px;
 }
+.bg3{
+    background-image:url("../image/y.svg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding-top:4rem;
+    
+    min-height: 80vh;
+    border-width:10px;
+}
