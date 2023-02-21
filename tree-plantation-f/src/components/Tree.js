@@ -132,42 +132,51 @@ const Tree = () => {
 
             </div>
 
-            
-
-<div className={css.bg3}>
-<div class="container px-0 py-0 mx-auto">
-
-<div class="flex flex-col text-center w-full mb-0">
 
 
+            <div className={css.bg3}>
+                <div class="container px-0 py-0 mx-auto">
 
-    <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-black font-Weight-900">OUR IMPACT OVER THE YEARS</h1>
-    <p class="lg:w-2/3 mx-auto leading-relaxed text-gray ">We have planted<p className="font-bold"> over 92.7 million trees in more than 80 countries</p>React across the globe since 2014. In 2022, we<p className="font-bold"> more than doubled our impact from 2021 - with 52.7 million trees!</p>
-    </p>
-
-
-</div>
-
-<div class="flex flex-wrap -m-3 text-center">
-    <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-    </div>
-</div>
-</div>
+                    <div class="flex flex-col text-center w-full mb-0">
 
 
-<div>
-<button class="text-right hover:bg-black text--700 font-semibold text-black py-2 px-8 border border-black hover:border-transparent rounded hover:text-white float-center flex mx-auto m-0 ">
-DOWLOAD 2022 REPORT
 
-</button>
+                        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-black font-Weight-900">OUR IMPACT OVER THE YEARS</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-gray ">We have planted<p className="font-bold"> over 92.7 million trees in more than 80 countries</p>React across the globe since 2014. In 2022, we<p className="font-bold"> more than doubled our impact from 2021 - with 52.7 million trees!</p>
+                        </p>
 
-</div>
 
-</div>
+                    </div>
+
+                    <div class="flex flex-wrap -m-3 text-center">
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <button class="text-right hover:bg-black text--700 font-semibold text-black py-1.5 px-7 border border-black hover:border-transparent rounded hover:text-white float-center flex mx-auto m-0 ">
+                        DOWLOAD 2022 REPORT
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div className={css.bg4}>
+
+              
+                    <h1 class="text-center sm:text-7xl text-2xl font-medium title-font mb-80 text-white font-Weight-10 font-size-100px">OUR PROCESS</h1>
+                   
+            </div>
+
+
+ <div className={css.bg5}>
            
-            
-
-
+                 </div> 
+           
 
         </div>
 
