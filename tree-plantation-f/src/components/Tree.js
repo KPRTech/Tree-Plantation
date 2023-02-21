@@ -47,30 +47,30 @@ const Tree = () => {
                   -700 rounded">GET IN TOUCH
 
                     </button>
-                    
+
 
                 </div>
-                
+
 
             </div>
             <p>
-            <div class="flex justify-center items-center p-10">
-               
-                
-                <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/facebook.svg" alt="blog"></img> </div>
-              
-                
-                
-                <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702299.png" alt="blog"></img></div>
+                <div class="flex justify-center items-center p-10">
 
 
-                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
-                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images.png" alt="blog"></img></div>
-                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images (1).jpg" alt="blog"></img></div>
-                <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/download.png" alt="blog"></img></div>
+                    <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/facebook.svg" alt="blog"></img> </div>
 
-            </div>  
-            
+
+
+                    <div class="pr-2"><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702299.png" alt="blog"></img></div>
+
+
+                    <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0" src="/image/702281.png" alt="blog"></img></div>
+                    <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images.png" alt="blog"></img></div>
+                    <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/images (1).jpg" alt="blog"></img></div>
+                    <div class="pr-2" ><img class="h-8 w-8 object-cover object-center mx-auto border-0 " src="/image/download.png" alt="blog"></img></div>
+
+                </div>
+
             </p>
             <section class="text-gray-600 body-font ">
 
@@ -80,7 +80,7 @@ const Tree = () => {
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-gray ">We want to make it simple for anyone to help the environment by planting trees. Together we can restore</p>
                         <p class="lg:w-2/3 mx-auto leading-rellaxed text-gray"> forests, create habitat for biodiversity, and make a positive social impact around the world </p>
                         <p className=" font-bold mb-3 text-black p-4 font-size-20px text-2xl">
-                        We plant one tree with every dollar donated.
+                            We plant one tree with every dollar donated.
                         </p>
                     </div>
                     <div class="flex flex-wrap -m-4 text-center">
@@ -89,51 +89,81 @@ const Tree = () => {
                     </div>
                 </div>
             </section>
-            
-        <div>
-            <div className={css.bg1}>
 
-                <h1 style={{
-                    text:"center",
-                    color: "#ffff",
-                    fontFamily: "Ralway",
-                    fontWeight: "900",
-                    fontSize: "20px",
-                    marginBottom: "0",
-                    lineHeight: "1em",
-                    border: "0",
-                    paddingLeft:"90px"
-                    
+            <div>
+                <div className={css.bg1}>
 
-                }}>WANT TO HELP MAKE A POSITIVE IMPACT FOR THE ENVIRONMENT?
+                    <h1 style={{
+                        text: "center",
+                        color: "#ffff",
+                        fontFamily: "Ralway",
+                        fontWeight: "900",
+                        fontSize: "20px",
+                        marginBottom: "0",
+                        lineHeight: "1em",
+                        border: "0",
+                        paddingLeft: "60px"
+
+
+                    }}>WANT TO HELP MAKE A POSITIVE IMPACT FOR THE ENVIRONMENT?
                     </h1>
 
-               
-                <div>
+
+                    <div>
 
 
-                    <button>
-                 
+                        <button class="text-right hover:bg-white text-white-700 font-semibold text-white py-1 px-8 border border-fff-500 hover:border-transparent rounded hover:text-black float-right
 
-                    </button>
-                    
+} ">
+                            PLANT A TREE
+
+                        </button>
+
+
+                    </div>
+
 
                 </div>
-                
+
 
             </div>
-            
-            
-        </div>   
-        </div>
+
+            <div className={css.bg2}>
+
+            </div>
+
+            <section class="text-gray-600 body-font p-40">
+
+                <div class="container px-5 py-35 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-black font-Weight-900">OUR IMPACT OVER THE YEARS</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-gray ">We have planted<p className="font-bold"> over 92.7 million trees in more than 80 countries</p>React across the globe since 2014. In 2022, we<p className="font-bold"> more than doubled our impact from 2021 - with 52.7 million trees!</p>
+                        </p>
+
+
+                    </div>
+                    <div class="flex flex-wrap -m-4 text-center">
+                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <button class="text-right hover:bg-black text--700 font-semibold text-black py-2 px-8 border border-black hover:border-transparent rounded hover:text-white float-center flex mx-auto m-0 ">
+DOWLOAD 2022 REPORT
+
+  </button>
+                </div>
+               
+            </section>
           
-      
-      
-       
-  
+            
+
+
+
+        </div>
 
     )
-    
+
 }
 
 export default Tree;

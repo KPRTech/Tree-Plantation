@@ -13,6 +13,16 @@
     background-repeat:no-repeat;
     background-position: center;
     padding-top:4rem;
-    min-height: 3svh;
-    border-width:5px;
+    min-height: 27vh;
+    border-width:10px;
+}
+.bg2{
+    background-image:url("../image/plant-trees-one-tree-768x292.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding-top:2rem;
+    
+    min-height: 100vh;
+    border-width:60px;
 }
