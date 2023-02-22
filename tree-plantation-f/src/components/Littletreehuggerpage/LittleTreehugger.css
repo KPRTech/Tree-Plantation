@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.LittleTreehugger {
+    text-align: center;
+}
+
+.container-fluid {
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.background img {
+    width: 100%;
+    height: 99.5%;
+    object-fit: cover;
+}
+
+
+
+.lit img {
+    justify-content: center !important;
+}
+
+
+.Title {
+    color: #6E9f4f;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.whatcan img {
+    max-width: 125%;
+    height: 100%;
+    margin-left: -5%;
+    margin-top: -10%;
+}
+
+.Eligible img {
+    max-width: 110%;
+    height: 100%;
+}
+
+
+.litleimg {
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    margin-top: -40%;
+    margin-left: 28%;
+}
+
+
+.helpskids img {
+    max-width: 110%;
+    height: 100%;
+}

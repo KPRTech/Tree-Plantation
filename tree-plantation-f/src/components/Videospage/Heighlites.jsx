@@ -7,8 +7,8 @@ const Heighlites = () => {
                 <h1 className='text-2xl mb-6 mt-5'>2021 WAS A BIG YEAR, HERE ARE SOME OF THE HIGHLIGHTS!</h1>
                 <div className='heighlits'>
                     <iframe width="550" height="300" src="https://www.youtube.com/embed/-j2qdGWqSv4" title="Planting 23 MILLION Trees: The 
-                     2021 Story | One Tree Planted" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-                      gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     2021 Story | One Tree Planted" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                      gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
             </div>
             <div className='Future-project mt-9 mb-9 p-8'>
