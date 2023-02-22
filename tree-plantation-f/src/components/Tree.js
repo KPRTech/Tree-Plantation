@@ -167,38 +167,51 @@ const Tree = () => {
 
             <div className={css.bg4}>
 
-              
-                    <h1 class="text-center sm:text-5xl text-2xl font-medium title-font mb-30 text-white font-Weight-10 font-size-100px">OUR PROCESS</h1>
-                    <p className={css.bg5}>
-            </p>
+
+                <h1 class="text-center sm:text-5xl text-2xl font-medium title-font mb-30 text-white font-Weight-10 font-size-100px">OUR PROCESS</h1>
+                <div className={css.bg5}>
+                </div>
 
 
- 
-           
-                 </div> 
 
-           <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-      <div class="sm:w-1/2 mb-10 px-4">
-        <div class="rounded-lg h-64 overflow-hidden">
-          
-        </div>
-        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Buy YouTube Videos</h2>
-        <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-      </div>
-      <div class="sm:w-1/2 mb-10 px-4">
-        <div class="rounded-lg h-64 overflow-hidden">
-          
-        </div>
-        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Catalyzer</h2>
-        <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-      </div>
-    </div>
-  </div>
-</section>
+
+            </div>
+
+            <section class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap -m-12">
+                        <div class="p-12 md:w-1/2 flex flex-col items-start">
+
+
+
+                            <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="p-4 md:w-1/2 flex flex-col items-start">
+
+                            <h2 class="sm:text-4xl text-2xl title-font font-medium text-gray-900 mt-0 mb-0">TOGETHER,
+                            </h2>
+                            <h2 class="sm:text-4xl text-2xl title-font font-medium text-gray-900 mt-0 mb-0">PLANTING A FOREST
+                            </h2>
+                            <p class="leading-relaxed mb-0">Since our establishment, we have been dedicated to making it easier for both.</p>
+                            <p class="leading-relaxed mb-0">individuals and businesses to give back to the <a class="font-bold">environment, create a healthier</a></p>
+                            <p class="leading-relaxed mb-4"><a class="font-bold">climate, protect biodiversity,</a> and<a class="font-bold">help reforestation efforts.</a></p>
+                            <p class="leading-relaxed mb-0">With your support, we aid in environmental conservation and restoration</p>
+                            <p class="leading-relaxed mb-0 font-bold">across the globe!</p>
+                            <button class="text-right hover:bg-blue text-blue text--700 font-semibold  py-1.5 px-7 border border-black hover:border-transparent rounded hover:text-white float-center  m-0 ">
+                        PLANT A TREE
+
+                    </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
 
         </div>
 
