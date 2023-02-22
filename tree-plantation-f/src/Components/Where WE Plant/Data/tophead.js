@@ -36,11 +36,33 @@ const tophead = [
     },
     {
         id: 6,
-        page: "",
-        title: "",
-        text: "",
-        text2: ""
+        page: "ASIA",
+        title: "ASIA",
+        text: "One Tree Planted's projects across Asia are helping rebuild the habitat of critically endangered species like orangutans, tigers, and more than 1,700 species of birds. These projects create jobs and provide sustainable, long-term income for communities so people and forests can live harmoniously.",
+        text2: "Select one of our tree-planting projects to learn more and help support reforestation in Asia."
     },
+    {
+        id: 7,
+        page: "AFRICA",
+        title: "AFRICA",
+        text: "One Tree Planted's focus in Africa is to rebuild animal habitats, restore soil and critical watersheds, and improve the lives of the communities that rely on the forests the most. Our planting partners promote agroforestry and educate farmers on the benefits of improved forestry practices, providing communities with sustainable sources of food, wood, and income.",
+        text2: "Select one of our tree-planting projects to learn more and help support reforestation in Africa."
+    },
+    {
+        id: 8,
+        page: "EUROPE",
+        title: "EUROPE",
+        text: "One Tree Planted has a growing number of projects in Europe. Our work seeks to re-establish woodland, improve water and soil quality, and create a habitat for wildlife in historically forested areas.",
+        text2: "Select one of our tree planting projects to learn more and help support reforestation in Europe."
+    },
+    {
+        id: 9,
+        page: "THE PACIFIC",
+        title: "THE PACIFIC",
+        text: "One Tree Planted has planted trees in five of Australia’s states and territories and across New Zealand. Our projects are restoring forests following the destruction of the Black Summer bushfires, rejuvenating critical habitats for wildlife like koalas and cockatoos, and safeguarding community watersheds through the restoration of indigenous tree species.",
+        text2: "Select one of our tree-planting projects to learn more and help support reforestation in the Pacific."
+    },
+
 ];
 
 export default tophead;

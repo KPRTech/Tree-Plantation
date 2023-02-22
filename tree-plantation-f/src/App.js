@@ -1,22 +1,16 @@
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import LatinAmerica from './Components/Where WE Plant/Pages/LatinAmerica';
-import Navbar from './Components/Shared/Navbar';
-import NavbarTwo from './Components/Shared/NavbarTwo';
+import Home from './Components/Home/Home';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <NavbarTwo />
-      <LatinAmerica />
-      
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Routes>
-        <Route path="/" />
+        <Route path="/" element={<Home />} />
       </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }

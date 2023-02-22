@@ -12,7 +12,7 @@ function NavbarTwo(){
 
     return(
         <nav class="py-3.5 px-5 bg-[#313539] flex">
-            <a href={'/'} className="mr-5"><img className="w-48 h-full" src="https://cdn.shopify.com/s/files/1/0326/7189/files/one-tree-planted-logo-white.svg?v=1619731262" alt="" /></a>
+            <Link to={'/'} className="mr-5"><img className="w-48 h-full" src="https://cdn.shopify.com/s/files/1/0326/7189/files/one-tree-planted-logo-white.svg?v=1619731262" alt="" /></Link>
             <div class="container flex flex-wrap items-center justify-start">
                 <ButtonCard1 item= {navbtn[0].item} itemLink= {navbtn[0].itemLink} />
                 <ButtonCard2 item= {navbtn[1].item} itemLink= {navbtn[1].itemLink} />
