@@ -156,7 +156,7 @@ const Tree = () => {
 
 
                 <div>
-                    <button class="text-right hover:bg-black text--700 font-semibold text-black py-1.5 px-7 border border-black hover:border-transparent rounded hover:text-white float-center flex mx-auto m-0 ">
+                    <button class="text-right hover:bg-blue text-blue-700 font-semibold text-blue py-1.5 px-7 border border-green-500 hover:border-transparent rounded hover:text-fff float-center flex mx-auto m-0 ">
                         DOWLOAD 2022 REPORT
 
                     </button>
@@ -202,10 +202,10 @@ const Tree = () => {
                             <p class="leading-relaxed mb-4"><a class="font-bold">climate, protect biodiversity,</a> and<a class="font-bold">help reforestation efforts.</a></p>
                             <p class="leading-relaxed mb-0">With your support, we aid in environmental conservation and restoration</p>
                             <p class="leading-relaxed mb-0 font-bold">across the globe!</p>
-                            <button class="text-right hover:bg-blue text-blue text--700 font-semibold  py-1.5 px-7 border border-black hover:border-transparent rounded hover:text-white float-center  m-0 ">
-                        PLANT A TREE
+                            <button class="text-right hover:bg-blue text-blue text-blue-700 font-semibold  py-1.5 px-7 border border-blue-400 hover:border-transparent rounded hover:text-white float-center  m-0 ">
+                                PLANT A TREE
 
-                    </button>
+                            </button>
                         </div>
 
                     </div>
@@ -213,6 +213,30 @@ const Tree = () => {
 
             </section>
 
+
+
+
+            <div>
+                <div className={css.bg6}>
+
+
+
+                    <h1 class="text-center sm:text-4xl text-2xl font-medium title-font mb-30 text-white font-Weight-10 font-size-100px">WE SUPPORT</h1>
+                    <h1 class="text-center sm:text-7xl text-2xl font-medium title-font mb-30 text-white font-Weight-10 font-size-100px">QUALITY PROJECTS</h1>
+                    <div>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+           
         </div>
 
     )
