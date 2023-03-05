@@ -12,35 +12,12 @@ const btnColor = {
   backgroundColor: "#d54d4d"
 }
 
-function Navbar(){
+function NavbarSm(){
     return (
       <nav class="" style={bgColor}>
         <div class="2xl:w-[1400px] mx-auto flex flex-wrap justify-between items-center 2xl:pl-0 pl-6">
             <div className="flex items-center text-white uppercase font-sans">
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FiMail />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                  <FaFacebookF />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FaInstagram />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FaLinkedinIn />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FaPinterestP />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FaTwitter />
-              </Link>
-              <Link to={'/'} className="px-2 hover:text-cyan-600">
-                <FaYoutube />
-              </Link>
-              <Link to={'/'} className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">1-800-408-7850</Link>
-              <Link to={'/'} className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">contact us</Link>
-              <Link to={'/'} className="lg:px-2 px-1.5 hover:text-cyan-600 lg:text-sm text-xs">newsletter</Link>
+              
             </div>
             
             <div class="flex items-center">
@@ -67,4 +44,4 @@ function Navbar(){
     );
 }
 
-export default Navbar;
+export default NavbarSm;
