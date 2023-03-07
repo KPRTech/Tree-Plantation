@@ -19,7 +19,7 @@ function createCard(plant){
 
 const Europe = () => {
   return (
-        <div>
+        <div className='mb-5'>
             <div className="xl:w-[1200px] w-full my-5 mx-auto">
                 <div className="lg:mx-4 md:mx-4 4xs:mx-4 hidden md:block"><Links pageName={tophead[7].page} /></div>
                 <div className="lg:mx-4 md:mx-4 4xs:mx-4"><Heading title={tophead[7].title} /></div>

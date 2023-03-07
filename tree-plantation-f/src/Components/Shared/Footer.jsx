@@ -15,6 +15,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { Accordion } from 'flowbite-react';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -30,7 +31,65 @@ const Footer = () => {
                     </div>
                     <img className='w-48 mb-4' src="https://cdn.shopify.com/s/files/1/0326/7189/files/united-nations-decade-on-ecosystem-restoration-2021-2030_5ef20274-a0d7-4aab-ba5f-c03508dc72af.svg?v=1624024397" alt="" />
                 </div>
-                <div className='text-left'>
+
+                {/* accordion */}
+                <Accordion alwaysOpen={true} collapseAll={true} className='border-none rounded-none mx-2 md:hidden block'>
+                    <Accordion.Panel>
+                        <Accordion.Title className='md:text-xl sm:text-lg text-base !px-0 !py-3 border-none !text-white font-medium uppercase roboto-con !bg-transparent focus:border-none active:border-none focus:!ring-0 active:!ring-0 active:!bg-transparent focus:!bg-transparent hover:bg-transparent'>
+                        tax id #46-4664563
+                        </Accordion.Title>
+                        <Accordion.Content className='text-left mx- border-none py-2.5'>
+                        <div className='roboto mb-5'>
+                            <p className='text-[#a2a7a7] text-sm leading-6'>One Tree Planted is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law.</p>
+                            <Link to={'/'} className='text-[#03a196] text-sm hover:text-white transition duration-200'>Learn more</Link>
+                        </div>
+                        <div className='roboto text-sm leading-[22px]'>
+                            <p className='uppercase font-bold text-[#a2a7a7]'>financials</p>
+                            <ul className=''>
+                                <li><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>2021 Audit Report</Link></li>
+                                <li><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>2021 Form 990</Link></li>
+                                <li><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>2020 Form 990</Link></li>
+                                <li><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>2019 Form 990</Link></li>
+                            </ul>
+                        </div>
+                        </Accordion.Content>
+                    </Accordion.Panel>
+                    <Accordion.Panel>
+                        <Accordion.Title className='md:text-xl sm:text-lg text-base !px-0 !py-3 border-none !text-white font-medium uppercase roboto-con !bg-transparent focus:border-none active:border-none focus:!ring-0 active:!ring-0 active:!bg-transparent focus:!bg-transparent hover:bg-transparent'>
+                        Quick links
+                        </Accordion.Title>
+                        <Accordion.Content className='text-left mx- border-none py-2.5'>
+                        <ul className='roboto text-sm leading-[22px] font-normal'>
+                            <li className='mb-2.5'><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Privacy Policy</Link></li>
+                            <li className='mb-2.5'><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Terms of Service</Link></li>
+                            <li className='mb-2.5'><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Return & Refund Policy</Link></li>
+                            <li className='mb-2.5'><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Careers</Link></li>
+                            <li className='mb-2.5'><Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Fundraising Disclosures</Link></li>
+                        </ul>
+                        </Accordion.Content>
+                    </Accordion.Panel>
+                    <Accordion.Panel>
+                        <Accordion.Title className='md:text-xl sm:text-lg text-base !px-0 !py-3 border-none !text-white font-medium uppercase roboto-con !bg-transparent focus:border-none active:border-none focus:!ring-0 active:!ring-0 active:!bg-transparent focus:!bg-transparent hover:bg-transparent'>
+                        Connect
+                        </Accordion.Title>
+                        <Accordion.Content className='text-left mx- border-none py-2.5'>
+                            <div className='roboto text-[#a2a7a7] text-sm leading-6'>
+                                Online:<Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>Contact Us</Link><br />
+                                Call: <span className='font-bold'>1.800.408.7850</span>
+                            </div>
+                            <div className='roboto text-[#a2a7a7] text-sm leading-6 italic'>
+                                <p>145 Pine Haven Shores Rd #1000D Shelburne, Vermont, 05482, US</p>
+                            </div>
+                            <div className='roboto'>
+                                <p className='text-[#a2a7a7] text-sm leading-6'>Need Funding? Apply <Link to={'/'} className='text-[#03a196] hover:text-white transition duration-200'>here</Link>.</p>
+                            </div>
+                        </Accordion.Content>
+                    </Accordion.Panel>
+                </Accordion>
+
+
+
+                <div className='text-left md:block hidden'>
                     <div className='md:grid gap-4 hidden'>
                         <h2 className='text-xl text-white font-medium uppercase roboto-con'>tax id #46-4664563</h2>
                         <div className='roboto'>
@@ -49,7 +108,7 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <div className='text-left'>
+                <div className='text-left md:block hidden'>
                     <div className='grid gap-4'>
                         <h2 className='text-xl text-white font-medium uppercase roboto-con'>Quick links</h2>
                         <ul className='roboto text-sm leading-[22px] font-normal'>
@@ -61,7 +120,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='text-left'>
+                <div className='text-left md:block hidden'>
                     <div className='grid gap-4'>
                         <h2 className='text-xl text-white font-medium uppercase roboto-con'>Connect</h2>
                         <div className='roboto text-[#a2a7a7] text-sm leading-6'>
@@ -76,20 +135,20 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-left'>
+                <div className='text-left md:mx-0 mx-2'>
                     <div className='grid gap-4'>
-                        <h2 className='text-xl text-white font-medium uppercase roboto-con'>Subscribe today!</h2>
+                        <h2 className='md:text-xl sm:tect-lg text-base text-white font-medium uppercase roboto-con'>Subscribe today!</h2>
                         <input type="text" className='h-11 w-full text-sm rounded border-none focus:ring-0' placeholder='Enter your first name...' />
                         <input type="text" className='h-11 w-full text-sm rounded border-none focus:ring-0' placeholder='Enter your email address...' />
                         <Link to={'/'} className='flex items-center justify-center text-white bg-[#04736b] font-extrabold uppercase h-11 text-base transition duration-700 roboto-con hover:text-lg hover:bg-[#03A196]'>sign up</Link>
-                        <div className='flex md:justify-start justify-center'>
-                            <Link to={'/'}><AiOutlineMail className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><FaFacebookF className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><AiOutlineInstagram className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><FaLinkedinIn className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><FaPinterestP className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><FaTwitter className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
-                            <Link to={'/'}><FaYoutube className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1.5' /></Link>
+                        <div className='flex flex-wrap md:justify-start justify-center md:my-0 my-5'>
+                            <Link to={'/'}><AiOutlineMail className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><FaFacebookF className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><AiOutlineInstagram className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><FaLinkedinIn className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><FaPinterestP className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><FaTwitter className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
+                            <Link to={'/'}><FaYoutube className='text-[#a2a7a7] hover:text-white text-xl hover:text-[22px] transition duration-400 mx-1 my-1.5' /></Link>
                         </div>
                     </div>
                 </div>
