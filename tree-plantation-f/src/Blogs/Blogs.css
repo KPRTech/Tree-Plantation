@@ -1,0 +1,68 @@
+/* .bgimg{
+    width:100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+@media (min-width: 768px){
+    .bgimg{
+        
+        height:33vh;
+        background-repeat: no-repeat;
+    }
+}
+
+.title{
+    padding-top:150px;
+    
+
+} 
+.spm{
+    padding-bottom: 150px;
+} */
+.responsive-background {
+    background-image: url('https://cdn.shopify.com/s/files/1/0326/7189/files/2_trillion_trees_1_2000x.progressive.jpg?v=1614322671');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat            ;
+}
+
+.content {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .responsive-background {
+        background-size: cover;
+        height: 30vh;
+        
+    }
+}
+@media (max-width: 820px) {
+    .responsive-background {
+        background-size: cover;
+        height: 40vh;
+    
+    background-position: center;
+    }
+}
+@media (max-width: 912px) {
+    .responsive-background {
+        background-size: cover;
+        height: 50vh;
+        
+    }
+}
+@media (max-width:1024px) {
+    .responsive-background {
+        background-size: cover;
+        height: vh;
+        width: 100%;
+    }
+}
+
+
