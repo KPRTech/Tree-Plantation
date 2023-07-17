@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
+<<<<<<< HEAD
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
+=======
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+>>>>>>> origin/rabbani
   theme: {
     extend: {},
     screens: {
@@ -25,7 +29,12 @@ module.exports = {
       ...defaultTheme.screens,
     },
   },
+<<<<<<< HEAD
   plugins: [
     require('flowbite/plugin')
   ],
 }
+=======
+  plugins: [require("tw-elements/dist/plugin")],
+};
+>>>>>>> origin/rabbani

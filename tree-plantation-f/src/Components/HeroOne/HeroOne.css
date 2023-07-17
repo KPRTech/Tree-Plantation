@@ -1,0 +1,9 @@
+.global-button:hover {
+  transition: 1s all ease;
+  transform: scale(1.1, 1.1);
+}
+.heading,
+.sub-heading {
+  margin-left: 100px;
+  margin-right: 100px;
+}

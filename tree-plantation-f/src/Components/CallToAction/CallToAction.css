@@ -1,0 +1,19 @@
+.cta__section > h1 {
+  font-size: 55px;
+  line-height: 5rem;
+  font-weight: 700;
+}
+.check_jobs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  padding: 50px 0;
+}
+.check_jobs_heading {
+  color: #fff;
+  font-size: 50px;
+  line-height: 6rem;
+  font-weight: 600;
+}
