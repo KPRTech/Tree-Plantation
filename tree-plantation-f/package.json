@@ -15,11 +15,15 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.3.8",
 =======
     "bootstrap": "^4.6.0",
 >>>>>>> origin/blogshabib
+=======
+    "bootstrap": "^5.2.3",
+>>>>>>> origin/individualhabib
     "react": "^18.2.0",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^18.2.0",
