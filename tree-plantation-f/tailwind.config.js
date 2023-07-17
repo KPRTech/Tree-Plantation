@@ -30,6 +30,7 @@ module.exports = {
     },
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   plugins: [
     require('flowbite/plugin')
   ],
@@ -38,3 +39,7 @@ module.exports = {
   plugins: [require("tw-elements/dist/plugin")],
 };
 >>>>>>> origin/rabbani
+=======
+  plugins: []
+}
+>>>>>>> origin/sumyia

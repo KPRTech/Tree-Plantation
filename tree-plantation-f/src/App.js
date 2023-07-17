@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 <<<<<<< HEAD
@@ -30,6 +31,10 @@ import Social from "./Components/Social/Social";
 
 import YouTube from "./Components/YouTube/YouTube";
 >>>>>>> origin/rabbani
+=======
+
+import './images/App.css';
+>>>>>>> origin/sumyia
 
 function App() {
   return (
@@ -50,6 +55,7 @@ function App() {
         <Route path="/blogs" />
 >>>>>>> origin/blogshabib
       </Routes>
+<<<<<<< HEAD
       </BrowserRouter> */}
 <<<<<<< HEAD
 =======
@@ -67,6 +73,11 @@ function App() {
       <HeroFour />
       <Social />
 >>>>>>> origin/rabbani
+=======
+      </BrowserRouter>
+      
+      
+>>>>>>> origin/sumyia
     </div>
   );
 }
